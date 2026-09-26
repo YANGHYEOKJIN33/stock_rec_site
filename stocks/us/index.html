@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="theme-color" content="#F2F4F6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1116" media="(prefers-color-scheme: dark)">
+<title>종목 · 미국 대형주 · 혁진씨의 주식 분석</title>
+<script>(function(){try{var r=document.documentElement,t=localStorage.getItem("theme"),u=localStorage.getItem("updown");if(t)r.setAttribute("data-theme",t);if(u)r.setAttribute("data-updown",u);}catch(e){}})();</script>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="../../static/app.css?v=202609270036">
+<script type="speculationrules">{"prefetch": [{"source": "document", "where": {"and": [{"href_matches": "/*"}, {"not": {"selector_matches": "a[target=_blank]"}}]}, "eagerness": "moderate"}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<div class="wrap">
+  <header class="top">
+    <div class="brandbox">
+      <a class="brand" href="../../"><span class="logo"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 17l5-6 4 3 7-9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>혁진씨의 주식 분석</a>
+      <p class="tagline">사라는거 아니에요. 제발 공부하고 매매합시다.<br>지금 당장 안사도 됩니다 ㅠ.</p>
+    </div>
+    <nav class="tabs" aria-label="주 메뉴">
+      <a href="../../"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z" stroke-linecap="round" stroke-linejoin="round"/></svg><span>홈</span></a>
+      <a href="../../stocks/" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 3v3M7 17v4M17 3v5M17 15v6M4 6h6v11H4zM14 8h6v7h-6z" stroke-linecap="round" stroke-linejoin="round"/></svg><span>종목</span></a>
+      <a href="../../picks/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 7.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zM12 11.5v1" stroke-linecap="round" stroke-linejoin="round"/></svg><span>추천</span></a>
+      <a href="../../flows/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 8h14l-3-3M20 16H6l3 3" stroke-linecap="round" stroke-linejoin="round"/></svg><span>수급</span></a>
+      <a href="../../feed/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5h12v14H6a2 2 0 0 1-2-2zM16 9h4v8a2 2 0 0 1-2 2M8 9h4M8 13h4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>뉴스</span></a>
+      <a href="../../market/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 12h4l3-8 4 16 3-8h4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>시장</span></a>
+      <a href="../../more/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h10" stroke-linecap="round" stroke-linejoin="round"/></svg><span>더보기</span></a>
+    </nav>
+    <div class="search" role="search" data-search data-root="../../">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM20 20l-4-4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <label class="sr" for="q">종목 검색</label>
+      <input id="q" type="search" placeholder="종목 이름이나 코드로 찾기" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="q-list" aria-autocomplete="list">
+      <ul id="q-list" role="listbox" hidden></ul>
+    </div>
+  </header>
+  <div class="pagehead">
+    <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 3v3M7 17v4M17 3v5M17 15v6M4 6h6v11H4zM14 8h6v7h-6z" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    <div><h1>종목</h1><p>어떤 종목을 지금 살 수 있는지, 산다면 얼마에 사고 언제 파는지 한 장씩 정리했어요. <span class="stamp" title="마지막 리포트 시각">· 09-26 08:55 아침 기준</span></p></div>
+  </div>
+  <nav class="subtabs" aria-label="하위 탭">
+<a href="../../stocks/mine/">☆ 내 관심종목</a><a href="../../stocks/">관심종목 <span class="n">62</span></a><a href="../../stocks/kr/">한국 대형주 <span class="n">297</span></a><a href="../../stocks/us/" aria-current="page">미국 대형주 <span class="n">518</span></a><a href="../../stocks/compare/">두 종목 비교</a>  </nav>
+  <main id="main">
+<section class="card span" data-cardlist data-srcs="../../data/list_us.json" data-root="../../">
+  <div class="row" style="align-items:flex-start">
+    <div><h2 style="margin:0">미국 대형주 <span class="faint">518개</span></h2>
+      <p class="sub" style="margin:4px 0 0">S&amp;P500·나스닥100 종목이에요. 관심종목과 같은 규칙으로 사이트가 계산했어요.</p></div>
+  </div>
+  <div class="levelbar" role="img" aria-label="매수 준비 27개, 관찰 257개, 피하기 234개" style="margin-top:14px">
+<i class="tone-ready" style="flex:27"></i><i class="tone-watch" style="flex:257"></i><i class="tone-stop" style="flex:234"></i>  </div>
+  <div class="filters" role="group" aria-label="걸러 보기">
+    <button type="button" data-lv="all" aria-pressed="true">전체 518</button>
+<button type="button" data-lv="ready" aria-pressed="false" class="tone-ready"><span class="sw"></span>매수 준비 27</button><button type="button" data-lv="watch" aria-pressed="false" class="tone-watch"><span class="sw"></span>관찰 257</button><button type="button" data-lv="avoid" aria-pressed="false" class="tone-stop"><span class="sw"></span>피하기 234</button>  </div>
+  <div class="filters" style="margin-top:10px">
+    <label class="sr" for="lq">이 목록에서 찾기</label>
+    <input id="lq" type="search" data-q placeholder="이 목록에서 이름·코드로 찾기" autocomplete="off">
+    <label class="sr" for="ls">정렬</label>
+    <select id="ls" data-sort><option value="best">좋은 순서</option><option value="near">매수가에 가까운 순</option><option value="rs">시장보다 강한 순</option><option value="d1">오늘 많이 오른 순</option></select>
+    <span class="label" data-count aria-live="polite"></span>
+  </div>
+  <ul class="cards" style="margin-top:14px">
+<li><a class="scard" href="../../us/s/TECH/">
+  <div class="top2"><div style="min-width:0"><div class="nm">Bio-Techne</div><div class="cd">TECH · 헬스케어</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">72.61<span class="up">+0.1%</span></div>
+  <div class="meta">매수가 72.69 · 0.1% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 65.42, 매수가 72.69, 1차 목표 87.23, 지금 72.61">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:34.2%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="TECH" data-name="Bio-Techne" aria-pressed="false" aria-label="Bio-Techne 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../us/s/WBD/">
+  <div class="top2"><div style="min-width:0"><div class="nm">Warner Bros. Discovery</div><div class="cd">WBD · 커뮤니케이션</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">30.86<span class="up">+0.1%</span></div>
+  <div class="meta">매수가 30.92 · 0.2% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 27.83, 매수가 30.92, 1차 목표 37.10, 지금 30.86">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:33.9%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="WBD" data-name="Warner Bros. Discovery" aria-pressed="false" aria-label="Warner Bros. Discovery 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../us/s/TER/">
+  <div class="top2"><div style="min-width:0"><div class="nm">Teradyne</div><div class="cd">TER · 정보기술</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">398.38<span class="up">+2.8%</span></div>
+  <div class="meta">매수가 399.40 · 0.3% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 359.46, 매수가 399.40, 1차 목표 479.28, 지금 398.38">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:33.8%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="TER" data-name="Teradyne" aria-pressed="false" aria-label="Teradyne 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../us/s/NXPI/">
+  <div class="top2"><div style="min-width:0"><div class="nm">NXP Semiconductors</div><div class="cd">NXPI · 정보기술</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">238.08<span class="up">+3.4%</span></div>
+  <div class="meta">매수가 238.94 · 0.4% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 215.05, 매수가 238.94, 1차 목표 286.73, 지금 238.08">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:33.5%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="NXPI" data-name="NXP Semiconductors" aria-pressed="false" aria-label="NXP Semiconductors 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../us/s/JBL/">
+  <div class="top2"><div style="min-width:0"><div class="nm">Jabil</div><div class="cd">JBL · 정보기술</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">316.74<span class="up">+1.9%</span></div>
+  <div class="meta">매수가 319.87 · 1.0% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 287.88, 매수가 319.87, 1차 목표 383.84, 지금 316.74">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:31.6%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="JBL" data-name="Jabil" aria-pressed="false" aria-label="Jabil 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../s/ALAB/">
+  <div class="top2"><div style="min-width:0"><div class="nm">Astera Labs</div><div class="cd">ALAB · 정보기술</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">364.62<span class="up">+1.1%</span></div>
+  <div class="meta">매수가 369.15 · 1.2% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 332.24, 매수가 369.15, 1차 목표 442.98, 지금 364.62">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:30.9%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="ALAB" data-name="Astera Labs" aria-pressed="false" aria-label="Astera Labs 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../us/s/LLY/">
+  <div class="top2"><div style="min-width:0"><div class="nm">Lilly (Eli)</div><div class="cd">LLY · 헬스케어</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">1,183.46<span class="up">+0.1%</span></div>
+  <div class="meta">매수가 1,197.79 · 1.2% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 1,078.01, 매수가 1,197.79, 1차 목표 1,437.35, 지금 1,183.46">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:31.0%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="LLY" data-name="Lilly (Eli)" aria-pressed="false" aria-label="Lilly (Eli) 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../us/s/CAT/">
+  <div class="top2"><div style="min-width:0"><div class="nm">Caterpillar Inc.</div><div class="cd">CAT · 산업재</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">821.58<span class="up">+2.0%</span></div>
+  <div class="meta">매수가 832.99 · 1.4% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 749.69, 매수가 832.99, 1차 목표 999.59, 지금 821.58">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:30.5%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="CAT" data-name="Caterpillar Inc." aria-pressed="false" aria-label="Caterpillar Inc. 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../us/s/MRVL/">
+  <div class="top2"><div style="min-width:0"><div class="nm">Marvell Technology</div><div class="cd">MRVL · 정보기술</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">261.94<span class="up">+1.1%</span></div>
+  <div class="meta">매수가 266.00 · 1.5% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 239.40, 매수가 266.00, 1차 목표 319.20, 지금 261.94">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:30.0%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="MRVL" data-name="Marvell Technology" aria-pressed="false" aria-label="Marvell Technology 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../us/s/MPWR/">
+  <div class="top2"><div style="min-width:0"><div class="nm">Monolithic Power Systems</div><div class="cd">MPWR · 정보기술</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">1,367.43<span class="up">+2.4%</span></div>
+  <div class="meta">매수가 1,387.46 · 1.5% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 1,248.71, 매수가 1,387.46, 1차 목표 1,664.95, 지금 1,367.43">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:30.3%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="MPWR" data-name="Monolithic Power Systems" aria-pressed="false" aria-label="Monolithic Power Systems 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../us/s/KLAC/">
+  <div class="top2"><div style="min-width:0"><div class="nm">KLA Corporation</div><div class="cd">KLAC · 정보기술</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">187.92<span class="up">+0.4%</span></div>
+  <div class="meta">매수가 190.87 · 1.6% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 171.78, 매수가 190.87, 1차 목표 229.04, 지금 187.92">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:30.0%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="KLAC" data-name="KLA Corporation" aria-pressed="false" aria-label="KLA Corporation 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../s/RKLB/">
+  <div class="top2"><div style="min-width:0"><div class="nm">Rocket Lab</div><div class="cd">RKLB · 산업재</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">73.95<span class="up">+0.5%</span></div>
+  <div class="meta">매수가 75.46 · 2.0% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 67.91, 매수가 75.46, 1차 목표 90.55, 지금 73.95">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:28.7%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="RKLB" data-name="Rocket Lab" aria-pressed="false" aria-label="Rocket Lab 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../us/s/LRCX/">
+  <div class="top2"><div style="min-width:0"><div class="nm">Lam Research</div><div class="cd">LRCX · 정보기술</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">315.21<span class="up">+2.6%</span></div>
+  <div class="meta">매수가 321.87 · 2.1% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 289.68, 매수가 321.87, 1차 목표 386.24, 지금 315.21">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:28.5%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="LRCX" data-name="Lam Research" aria-pressed="false" aria-label="Lam Research 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../s/MU/">
+  <div class="top2"><div style="min-width:0"><div class="nm">Micron Technology</div><div class="cd">MU · 정보기술</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">1,082.28<span class="up">+0.2%</span></div>
+  <div class="meta">매수가 1,105.50 · 2.1% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 994.95, 매수가 1,105.50, 1차 목표 1,326.60, 지금 1,082.28">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:28.4%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="MU" data-name="Micron Technology" aria-pressed="false" aria-label="Micron Technology 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../us/s/STX/">
+  <div class="top2"><div style="min-width:0"><div class="nm">Seagate Technology</div><div class="cd">STX · 정보기술</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">916.83<span class="up">+1.2%</span></div>
+  <div class="meta">매수가 936.19 · 2.1% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 842.57, 매수가 936.19, 1차 목표 1,123.43, 지금 916.83">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:28.5%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="STX" data-name="Seagate Technology" aria-pressed="false" aria-label="Seagate Technology 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../us/s/FIX/">
+  <div class="top2"><div style="min-width:0"><div class="nm">Comfort Systems USA</div><div class="cd">FIX · 산업재</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">1,658.91<span class="up">+0.9%</span></div>
+  <div class="meta">매수가 1,695.57 · 2.2% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 1,526.01, 매수가 1,695.57, 1차 목표 2,034.68, 지금 1,658.91">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:28.2%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="FIX" data-name="Comfort Systems USA" aria-pressed="false" aria-label="Comfort Systems USA 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../us/s/TT/">
+  <div class="top2"><div style="min-width:0"><div class="nm">Trane Technologies</div><div class="cd">TT · 산업재</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">454.44<span class="up">+3.6%</span></div>
+  <div class="meta">매수가 464.46 · 2.2% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 418.02, 매수가 464.46, 1차 목표 557.35, 지금 454.44">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:28.2%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="TT" data-name="Trane Technologies" aria-pressed="false" aria-label="Trane Technologies 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../us/s/HUBB/">
+  <div class="top2"><div style="min-width:0"><div class="nm">Hubbell Incorporated</div><div class="cd">HUBB · 산업재</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">466.62<span class="up">+0.2%</span></div>
+  <div class="meta">매수가 477.47 · 2.3% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 429.72, 매수가 477.47, 1차 목표 572.96, 지금 466.62">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:27.9%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="HUBB" data-name="Hubbell Incorporated" aria-pressed="false" aria-label="Hubbell Incorporated 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../us/s/VLTO/">
+  <div class="top2"><div style="min-width:0"><div class="nm">Veralto</div><div class="cd">VLTO · 산업재</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">97.14<span class="up">+1.0%</span></div>
+  <div class="meta">매수가 99.43 · 2.4% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 89.49, 매수가 99.43, 1차 목표 119.32, 지금 97.14">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:27.8%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="VLTO" data-name="Veralto" aria-pressed="false" aria-label="Veralto 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../us/s/ASML/">
+  <div class="top2"><div style="min-width:0"><div class="nm">ASML Holding</div><div class="cd">ASML · 정보기술</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">1,743.94<span class="up">+1.2%</span></div>
+  <div class="meta">매수가 1,790.00 · 2.6% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 1,611.00, 매수가 1,790.00, 1차 목표 2,148.00, 지금 1,743.94">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:27.0%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="ASML" data-name="ASML Holding" aria-pressed="false" aria-label="ASML Holding 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../us/s/FLEX/">
+  <div class="top2"><div style="min-width:0"><div class="nm">Flex Ltd.</div><div class="cd">FLEX · 정보기술</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">114.68<span class="up">+2.0%</span></div>
+  <div class="meta">매수가 117.68 · 2.6% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 105.91, 매수가 117.68, 1차 목표 141.22, 지금 114.68">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:27.0%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="FLEX" data-name="Flex Ltd." aria-pressed="false" aria-label="Flex Ltd. 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../s/GEV/">
+  <div class="top2"><div style="min-width:0"><div class="nm">GE Vernova</div><div class="cd">GEV · 산업재</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">957.63<span class="up">+0.3%</span></div>
+  <div class="meta">매수가 983.34 · 2.7% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 885.01, 매수가 983.34, 1차 목표 1,180.01, 지금 957.63">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:26.9%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="GEV" data-name="GE Vernova" aria-pressed="false" aria-label="GE Vernova 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../us/s/TDY/">
+  <div class="top2"><div style="min-width:0"><div class="nm">Teledyne Technologies</div><div class="cd">TDY · 정보기술</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">614.15<span class="up">+0.3%</span></div>
+  <div class="meta">매수가 632.09 · 2.9% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 568.88, 매수가 632.09, 1차 목표 758.51, 지금 614.15">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:26.2%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="TDY" data-name="Teledyne Technologies" aria-pressed="false" aria-label="Teledyne Technologies 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../us/s/COST/">
+  <div class="top2"><div style="min-width:0"><div class="nm">Costco</div><div class="cd">COST · 필수소비재</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">922.77<span class="up">+2.9%</span></div>
+  <div class="meta">매수가 953.73 · 3.4% 남음 · 조건 3/5</div>
+<div class="ladder" role="img" aria-label="손절가 858.36, 매수가 953.73, 1차 목표 1,144.48, 지금 922.77">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:25.0%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="COST" data-name="Costco" aria-pressed="false" aria-label="Costco 내 관심종목에 넣기/빼기">☆</button></li>
+  </ul>
+<noscript><div class="label" style="margin-top:10px">좋은 순서로 24개만 보여요. 나머지는 위 검색창에서 찾아보세요.</div></noscript></section>
+
+<section class="card span">
+  <details>
+    <summary>카드 읽는 법</summary>
+    <div class="body">
+      <dl class="gloss">
+        <dt><span class="pill tone-go"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 가능</span></dt><dd>매수 조건 4가지와 시장 날씨를 모두 통과했어요. 매수가 근처에서 살 수 있어요.</dd>
+        <dt><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></dt><dd>조건을 거의 채웠고 매수가에 가까워요. 매수가를 힘 있게 넘는지 지켜봐요.</dd>
+        <dt><span class="pill tone-wait"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6v12M15 6v12" stroke-linecap="round" stroke-linejoin="round"/></svg>시장 대기</span> <span class="pill tone-wait"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6v12M15 6v12" stroke-linecap="round" stroke-linejoin="round"/></svg>추격 금지</span></dt><dd>종목은 좋은데 시장이 나쁘거나, 이미 매수가보다 5% 넘게 올라 쫓아 사지 않아요.</dd>
+        <dt><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></dt><dd>아직 조건이 모자라요. 목록에 두고 지켜만 봐요.</dd>
+        <dt><span class="pill tone-stop"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11" stroke-linecap="round" stroke-linejoin="round"/></svg>피하기</span></dt><dd>주가가 내려가는 흐름이에요. 떨어지는 칼날은 잡지 않아요.</dd>
+        <dt>막대(손절 · 매수가 · 목표)</dt><dd>동그라미가 지금 가격이에요. 매수가에서 사면 손절가(−10%) 아래에서 팔고, 목표(+20%)에서 절반을 팔아요.</dd>
+        <dt>조건 3/5</dt><dd>매수 조건 4가지 + 시장 날씨, 모두 5개 중 몇 개를 채웠는지예요.</dd>
+      </dl>
+    </div>
+  </details>
+</section>
+  </main>
+  <footer>
+    <p class="disclaim" role="note"><b>⚠ 투자 책임 안내</b> — 이 사이트는 개인 투자 규칙을 점검하는 곳이에요. <b>투자 자문이나 매수·매도 추천이 아니에요.</b> 모든 판단과 책임은 본인에게 있어요. 여기 나온 목록·점수·과거 성적은 앞으로의 수익을 보장하지 않고, 원금을 잃을 수 있어요.</p>
+    <p>매수 판단은 정해진 규칙으로만 내려요. <span class="badge opinion">의견</span> 표시가 붙은 건 참고용이에요. 가격은 모두 일봉 종가 기준이에요.</p>
+    <p>리포트 09-26 08:55 아침 기준 · 업데이트 09-27 00:36 KST · 시세 출처 yfinance·FinanceDataReader · 검색엔진에 노출하지 않아요</p>
+    <div class="set">
+      <button type="button" data-set="theme">밝게/어둡게</button>
+      <button type="button" data-set="updown">상승색: 한국식/미국식</button>
+    </div>
+  </footer>
+</div>
+<div class="toast" data-toast role="status" aria-live="polite" hidden></div>
+<script src="../../static/ui.js?v=202609270036" defer></script>
+</body>
+</html>

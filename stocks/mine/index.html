@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="theme-color" content="#F2F4F6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1116" media="(prefers-color-scheme: dark)">
+<title>종목 · 내 관심종목 · 혁진씨의 주식 분석</title>
+<script>(function(){try{var r=document.documentElement,t=localStorage.getItem("theme"),u=localStorage.getItem("updown");if(t)r.setAttribute("data-theme",t);if(u)r.setAttribute("data-updown",u);}catch(e){}})();</script>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="../../static/app.css?v=202609270036">
+<script type="speculationrules">{"prefetch": [{"source": "document", "where": {"and": [{"href_matches": "/*"}, {"not": {"selector_matches": "a[target=_blank]"}}]}, "eagerness": "moderate"}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<div class="wrap">
+  <header class="top">
+    <div class="brandbox">
+      <a class="brand" href="../../"><span class="logo"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 17l5-6 4 3 7-9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>혁진씨의 주식 분석</a>
+      <p class="tagline">사라는거 아니에요. 제발 공부하고 매매합시다.<br>지금 당장 안사도 됩니다 ㅠ.</p>
+    </div>
+    <nav class="tabs" aria-label="주 메뉴">
+      <a href="../../"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z" stroke-linecap="round" stroke-linejoin="round"/></svg><span>홈</span></a>
+      <a href="../../stocks/" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 3v3M7 17v4M17 3v5M17 15v6M4 6h6v11H4zM14 8h6v7h-6z" stroke-linecap="round" stroke-linejoin="round"/></svg><span>종목</span></a>
+      <a href="../../picks/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 7.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zM12 11.5v1" stroke-linecap="round" stroke-linejoin="round"/></svg><span>추천</span></a>
+      <a href="../../flows/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 8h14l-3-3M20 16H6l3 3" stroke-linecap="round" stroke-linejoin="round"/></svg><span>수급</span></a>
+      <a href="../../feed/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5h12v14H6a2 2 0 0 1-2-2zM16 9h4v8a2 2 0 0 1-2 2M8 9h4M8 13h4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>뉴스</span></a>
+      <a href="../../market/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 12h4l3-8 4 16 3-8h4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>시장</span></a>
+      <a href="../../more/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h10" stroke-linecap="round" stroke-linejoin="round"/></svg><span>더보기</span></a>
+    </nav>
+    <div class="search" role="search" data-search data-root="../../">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM20 20l-4-4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <label class="sr" for="q">종목 검색</label>
+      <input id="q" type="search" placeholder="종목 이름이나 코드로 찾기" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="q-list" aria-autocomplete="list">
+      <ul id="q-list" role="listbox" hidden></ul>
+    </div>
+  </header>
+  <div class="pagehead">
+    <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 3v3M7 17v4M17 3v5M17 15v6M4 6h6v11H4zM14 8h6v7h-6z" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    <div><h1>종목</h1><p>어떤 종목을 지금 살 수 있는지, 산다면 얼마에 사고 언제 파는지 한 장씩 정리했어요. <span class="stamp" title="마지막 리포트 시각">· 09-26 08:55 아침 기준</span></p></div>
+  </div>
+  <nav class="subtabs" aria-label="하위 탭">
+<a href="../../stocks/mine/" aria-current="page">☆ 내 관심종목</a><a href="../../stocks/">관심종목 <span class="n">62</span></a><a href="../../stocks/kr/">한국 대형주 <span class="n">297</span></a><a href="../../stocks/us/">미국 대형주 <span class="n">518</span></a><a href="../../stocks/compare/">두 종목 비교</a>  </nav>
+  <main id="main">
+<section class="card span" data-cardlist data-srcs="../../data/list_watch.json ../../data/list_kr.json ../../data/list_us.json" data-root="../../" data-mine>
+  <div class="row" style="align-items:flex-start">
+    <div><h2 style="margin:0">내 관심종목 <span class="faint">0개</span></h2>
+      <p class="sub" style="margin:4px 0 0">☆를 눌러 고른 종목이에요. 이 기기(브라우저)에만 저장되고 서버로 보내지 않아요.</p></div>
+  </div>
+  <div class="levelbar" role="img" aria-label="" style="margin-top:14px">
+  </div>
+  <div class="filters" role="group" aria-label="걸러 보기">
+    <button type="button" data-lv="all" aria-pressed="true">전체 0</button>
+  </div>
+  <div class="filters" style="margin-top:10px">
+    <label class="sr" for="lq">이 목록에서 찾기</label>
+    <input id="lq" type="search" data-q placeholder="이 목록에서 이름·코드로 찾기" autocomplete="off">
+    <label class="sr" for="ls">정렬</label>
+    <select id="ls" data-sort><option value="best">좋은 순서</option><option value="near">매수가에 가까운 순</option><option value="rs">시장보다 강한 순</option><option value="d1">오늘 많이 오른 순</option></select>
+    <span class="label" data-count aria-live="polite"></span>
+  </div>
+  <div class="banner" data-empty style="background:var(--accent-soft);color:var(--ready-tx);margin-top:12px">아직 담은 종목이 없어요. 종목 카드나 종목 쪽의 <b>☆</b>를 누르면 여기에 모여요. 이 기기(브라우저)에만 저장돼서 다른 기기엔 따로 담아야 해요.
+    <div style="margin-top:8px"><button type="button" class="btn" data-fill>텔레그램 관심종목 62개로 채우기</button></div></div>
+  <ul class="cards" style="margin-top:14px">
+  </ul>
+</section>
+
+<section class="card span">
+  <details>
+    <summary>카드 읽는 법</summary>
+    <div class="body">
+      <dl class="gloss">
+        <dt><span class="pill tone-go"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 가능</span></dt><dd>매수 조건 4가지와 시장 날씨를 모두 통과했어요. 매수가 근처에서 살 수 있어요.</dd>
+        <dt><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></dt><dd>조건을 거의 채웠고 매수가에 가까워요. 매수가를 힘 있게 넘는지 지켜봐요.</dd>
+        <dt><span class="pill tone-wait"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6v12M15 6v12" stroke-linecap="round" stroke-linejoin="round"/></svg>시장 대기</span> <span class="pill tone-wait"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6v12M15 6v12" stroke-linecap="round" stroke-linejoin="round"/></svg>추격 금지</span></dt><dd>종목은 좋은데 시장이 나쁘거나, 이미 매수가보다 5% 넘게 올라 쫓아 사지 않아요.</dd>
+        <dt><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></dt><dd>아직 조건이 모자라요. 목록에 두고 지켜만 봐요.</dd>
+        <dt><span class="pill tone-stop"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11" stroke-linecap="round" stroke-linejoin="round"/></svg>피하기</span></dt><dd>주가가 내려가는 흐름이에요. 떨어지는 칼날은 잡지 않아요.</dd>
+        <dt>막대(손절 · 매수가 · 목표)</dt><dd>동그라미가 지금 가격이에요. 매수가에서 사면 손절가(−10%) 아래에서 팔고, 목표(+20%)에서 절반을 팔아요.</dd>
+        <dt>조건 3/5</dt><dd>매수 조건 4가지 + 시장 날씨, 모두 5개 중 몇 개를 채웠는지예요.</dd>
+      </dl>
+    </div>
+  </details>
+</section>
+  </main>
+  <footer>
+    <p class="disclaim" role="note"><b>⚠ 투자 책임 안내</b> — 이 사이트는 개인 투자 규칙을 점검하는 곳이에요. <b>투자 자문이나 매수·매도 추천이 아니에요.</b> 모든 판단과 책임은 본인에게 있어요. 여기 나온 목록·점수·과거 성적은 앞으로의 수익을 보장하지 않고, 원금을 잃을 수 있어요.</p>
+    <p>매수 판단은 정해진 규칙으로만 내려요. <span class="badge opinion">의견</span> 표시가 붙은 건 참고용이에요. 가격은 모두 일봉 종가 기준이에요.</p>
+    <p>리포트 09-26 08:55 아침 기준 · 업데이트 09-27 00:36 KST · 시세 출처 yfinance·FinanceDataReader · 검색엔진에 노출하지 않아요</p>
+    <div class="set">
+      <button type="button" data-set="theme">밝게/어둡게</button>
+      <button type="button" data-set="updown">상승색: 한국식/미국식</button>
+    </div>
+  </footer>
+</div>
+<div class="toast" data-toast role="status" aria-live="polite" hidden></div>
+<script src="../../static/ui.js?v=202609270036" defer></script>
+</body>
+</html>
