@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="theme-color" content="#F2F4F6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1116" media="(prefers-color-scheme: dark)">
+<title>시장 · 금리 확률 · 혁진씨의 주식 분석</title>
+<script>(function(){try{var r=document.documentElement,t=localStorage.getItem("theme"),u=localStorage.getItem("updown");if(t)r.setAttribute("data-theme",t);if(u)r.setAttribute("data-updown",u);}catch(e){}})();</script>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="../../static/app.css?v=202610101312">
+<script type="speculationrules">{"prefetch": [{"source": "document", "where": {"and": [{"href_matches": "/*"}, {"not": {"selector_matches": "a[target=_blank]"}}]}, "eagerness": "moderate"}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<div class="wrap">
+  <header class="top">
+    <div class="brandbox">
+      <a class="brand" href="../../"><span class="logo"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 17l5-6 4 3 7-9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>혁진씨의 주식 분석</a>
+      <p class="tagline">사라는거 아니에요. 제발 공부하고 매매합시다.<br>지금 당장 안사도 됩니다 ㅠ.</p>
+    </div>
+    <nav class="tabs" aria-label="주 메뉴">
+      <a href="../../"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z" stroke-linecap="round" stroke-linejoin="round"/></svg><span>홈</span></a>
+      <a href="../../scenarios/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 3v12M6 15a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM18 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM18 9c0 5-12 2-12 6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>시나리오</span></a>
+      <a href="../../stocks/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 3v3M7 17v4M17 3v5M17 15v6M4 6h6v11H4zM14 8h6v7h-6z" stroke-linecap="round" stroke-linejoin="round"/></svg><span>종목</span></a>
+      <a href="../../picks/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 7.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zM12 11.5v1" stroke-linecap="round" stroke-linejoin="round"/></svg><span>추천</span></a>
+      <a href="../../flows/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 8h14l-3-3M20 16H6l3 3" stroke-linecap="round" stroke-linejoin="round"/></svg><span>수급</span></a>
+      <a href="../../market/" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 12h4l3-8 4 16 3-8h4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>시장</span></a>
+      <a href="../../more/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h10" stroke-linecap="round" stroke-linejoin="round"/></svg><span>더보기</span></a>
+    </nav>
+    <div class="search" role="search" data-search data-root="../../">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM20 20l-4-4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <label class="sr" for="q">종목 검색</label>
+      <input id="q" type="search" placeholder="종목 이름이나 코드로 찾기" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="q-list" aria-autocomplete="list">
+      <ul id="q-list" role="listbox" hidden></ul>
+    </div>
+  </header>
+  <div class="pagehead">
+    <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 12h4l3-8 4 16 3-8h4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    <div><h1>시장</h1><p>지금이 주식을 새로 사기 좋은 때인지 알려 줘요. 시장 점수 0점 이상이면 평소대로, −1~−6점이면 작게만, −7점 이하면 새로 사지 않아요. <span class="stamp" title="마지막 리포트 시각 · 리포트는 평일 저녁 18:10 · 아침 06:10(화~토) 예약이에요. GitHub 예약이라 보통 몇 시간 늦게 오고, 주말엔 없어요">· 10-10 09:42 아침 기준 · 다음 10-12(월) 18:10 예약</span></p></div>
+  </div>
+  <nav class="subtabs" aria-label="하위 탭">
+<a href="../../market/">매크로 점수</a><a href="../../market/forecast/">🔮 시장 예측</a><a href="../../market/macro/">거시 지표</a><a href="../../market/speech/">주요 인사 발언</a><a href="../../market/calendar/">📅 일정</a><a href="../../market/fed/" aria-current="page">🏦 금리 확률</a><a href="../../market/kr/">🇰🇷 국내 증시</a><a href="../../market/reports/">📑 증권사 리포트</a><a href="../../market/turn/">전환 조건</a><a href="../../market/outlook/">언제 좋아질까</a><a href="../../market/indicators/">지표</a><a href="../../market/breadth/">폭·방향</a><a href="../../market/themes/">테마</a><a href="../../market/rotation/">섹터 회전</a><a href="../../market/indices/">지수·코인</a><a href="../../market/notes/">시황</a><a href="../../us/">미국 지도 ↗</a>  </nav>
+  <main id="main">
+
+
+
+
+
+<section class="card span">
+  <div class="row"><h2 style="margin:0">🏦 미국 기준금리 — 시장이 보는 변경 확률</h2><span class="badge opinion">참고</span></div>
+  <div class="kpis" style="margin-top:12px">
+    <div><div class="v">3.75~4.00%</div><div class="l">지금 목표 범위 · 실효 3.88%</div></div>
+    <div><div class="v tone-watch">동결 82%</div><div class="l">다음 회의 10/28(수) 가장 높은 쪽</div></div>
+    <div><div class="v num">+5bp</div><div class="l">회의 뒤 예상 금리<sup class="fn"><a href="#fn-1" id="fr-1" title="돈을 빌리는 값(이자율)이에요. 오르면 주식이 비싸 보여 눌리기 쉬워요.">1</a></sup> 3.925%</div></div>
+  </div>
+  <div class="tablewrap" style="margin-top:12px"><table class="tbl">
+    <thead><tr><th>회의</th><th style="min-width:160px">지금 범위보다 낮음 · 같음 · 높음</th><th class="r">가장 높은 범위</th><th class="r nw">지금 대비</th></tr></thead>
+<tr><td class="nw num">26/10/28(수)</td>
+      <td><div class="bar2" role="img" aria-label="인하 0%, 동결 82%, 인상 18%"><span class="a" style="flex:0;background:var(--go)"></span><span class="c" style="flex:82"></span><span class="b" style="flex:18;background:var(--stop)"></span></div>
+        <div class="label">인하 0% · 동결 82% · 인상 18%</div></td>
+      <td class="r num nw">3.75~4.00% <span class="faint">82%</span></td><td class="r num">+5bp</td></tr><tr><td class="nw num">26/12/09(수)</td>
+      <td><div class="bar2" role="img" aria-label="인하 0%, 동결 0%, 인상 100%"><span class="a" style="flex:0;background:var(--go)"></span><span class="c" style="flex:0"></span><span class="b" style="flex:100;background:var(--stop)"></span></div>
+        <div class="label">그때 금리가 지금보다 낮음 0% · 같음 0% · 높음 100%</div></td>
+      <td class="r num nw">4.00~4.25% <span class="faint">100%</span></td><td class="r num">+25bp</td></tr><tr><td class="nw num">27/01/27(수)</td>
+      <td><div class="bar2" role="img" aria-label="인하 0%, 동결 0%, 인상 100%"><span class="a" style="flex:0;background:var(--go)"></span><span class="c" style="flex:0"></span><span class="b" style="flex:100;background:var(--stop)"></span></div>
+        <div class="label">그때 금리가 지금보다 낮음 0% · 같음 0% · 높음 100%</div></td>
+      <td class="r num nw">4.00~4.25% <span class="faint">60%</span></td><td class="r num">+35bp</td></tr><tr><td class="nw num">27/03/17(수)</td>
+      <td><div class="bar2" role="img" aria-label="인하 0%, 동결 0%, 인상 100%"><span class="a" style="flex:0;background:var(--go)"></span><span class="c" style="flex:0"></span><span class="b" style="flex:100;background:var(--stop)"></span></div>
+        <div class="label">그때 금리가 지금보다 낮음 0% · 같음 0% · 높음 100%</div></td>
+      <td class="r num nw">4.25~4.50% <span class="faint">89%</span></td><td class="r num">+53bp</td></tr><tr><td class="nw num">27/04/28(수)</td>
+      <td><div class="bar2" role="img" aria-label="인하 0%, 동결 0%, 인상 100%"><span class="a" style="flex:0;background:var(--go)"></span><span class="c" style="flex:0"></span><span class="b" style="flex:100;background:var(--stop)"></span></div>
+        <div class="label">그때 금리가 지금보다 낮음 0% · 같음 0% · 높음 100%</div></td>
+      <td class="r num nw">4.25~4.50% <span class="faint">52%</span></td><td class="r num">+62bp</td></tr><tr><td class="nw num">27/06/09(수)</td>
+      <td><div class="bar2" role="img" aria-label="인하 0%, 동결 0%, 인상 100%"><span class="a" style="flex:0;background:var(--go)"></span><span class="c" style="flex:0"></span><span class="b" style="flex:100;background:var(--stop)"></span></div>
+        <div class="label">그때 금리가 지금보다 낮음 0% · 같음 0% · 높음 100%</div></td>
+      <td class="r num nw">4.50~4.75% <span class="faint">92%</span></td><td class="r num">+73bp</td></tr>  </table></div>
+  <div class="label" style="margin-top:8px">계산: 30일 연방기금 선물(ZQ) 가격 → 달마다 시장이 예상하는 평균 금리(100 − 가격) → 회의가 있는 달은 회의 전 · 후 일수로 나눠 회의 뒤 금리를 풀고, 지금 실효 금리와의 차이를 0.25%p 칸으로 나눈 확률이에요. CME FedWatch 와 같은 원리의 단순판이라(자동 접근이 막혀 직접 계산) CME 화면과 몇 %p 다를 수 있어요. '지금 대비'는 앞선 회의들을 모두 더한 누적 변화예요. 회의 날짜: 연준 FOMC 달력. 판정(★)에 쓰지 않아요.</div>
+</section>
+  </main><aside class="fnbox" aria-label="단어 풀이"><h2>단어 풀이 <span class="faint">· 이 쪽에 나온 어려운 말</span></h2><dl class="fnlist"><dt id="fn-1"><a href="#fr-1">1</a> 금리</dt><dd>돈을 빌리는 값(이자율)이에요. 오르면 주식이 비싸 보여 눌리기 쉬워요.</dd></dl></aside>
+  <footer>
+    <p class="disclaim" role="note"><b>⚠ 투자 책임 안내</b> — 이 사이트는 개인 투자 규칙을 점검하는 곳이에요. <b>투자 자문이나 매수·매도 추천이 아니에요.</b> 모든 판단과 책임은 본인에게 있어요. 여기 나온 목록·점수·과거 성적은 앞으로의 수익을 보장하지 않고, 원금을 잃을 수 있어요.</p>
+    <p>매수 판단은 정해진 규칙으로만 내려요. <span class="badge opinion">의견</span> 표시가 붙은 건 참고용이에요. 가격은 모두 일봉 종가 기준이에요.</p>
+    <p>리포트 10-10 09:42 아침 기준(다음 10-12(월) 18:10 예약 — 평일 저녁 · 아침만, 보통 몇 시간 늦게 와요) · 사이트 시세 · 뉴스 업데이트 10-10 13:12 KST · 시세 출처 yfinance·FinanceDataReader · 검색엔진에 노출하지 않아요</p>
+    <div class="set">
+      <button type="button" data-set="theme">밝게/어둡게</button>
+      <button type="button" data-set="updown">상승색: 한국식/미국식</button>
+    </div>
+  </footer>
+</div>
+<div class="toast" data-toast role="status" aria-live="polite" hidden></div>
+<script src="../../static/ui.js?v=202610101312" defer></script>
+</body>
+</html>
