@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="theme-color" content="#F2F4F6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1116" media="(prefers-color-scheme: dark)">
+<title>자료 세이브티커 · 혁진씨의 주식 분석</title>
+<script>(function(){try{var r=document.documentElement,t=localStorage.getItem("theme"),u=localStorage.getItem("updown");if(t)r.setAttribute("data-theme",t);if(u)r.setAttribute("data-updown",u);}catch(e){}})();</script>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="../../static/app.css?v=202610310949">
+<script type="speculationrules">{"prefetch": [{"source": "document", "where": {"and": [{"href_matches": "/*"}, {"not": {"selector_matches": "a[target=_blank]"}}]}, "eagerness": "moderate"}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<div class="wrap">
+  <header class="top">
+    <div class="brandbox">
+      <a class="brand" href="../../"><span class="logo"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 17l5-6 4 3 7-9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>혁진씨의 주식 분석</a>
+      <p class="tagline">사라는거 아니에요. 제발 공부하고 매매합시다.<br>지금 당장 안사도 됩니다 ㅠ.</p>
+      <div class="mktclock" data-mkt aria-label="한국장 · 미국장 상태"></div>
+    </div>
+    <nav class="tabs" aria-label="주 메뉴">
+      <a href="../../"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z" stroke-linecap="round" stroke-linejoin="round"/></svg><span>홈</span></a>
+      <a href="../../scenarios/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 3v12M6 15a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM18 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM18 9c0 5-12 2-12 6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>시나리오</span></a>
+      <a href="../../stocks/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 3v3M7 17v4M17 3v5M17 15v6M4 6h6v11H4zM14 8h6v7h-6z" stroke-linecap="round" stroke-linejoin="round"/></svg><span>종목</span></a>
+      <a href="../../picks/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 7.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zM12 11.5v1" stroke-linecap="round" stroke-linejoin="round"/></svg><span>추천</span></a>
+      <a href="../../flows/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 8h14l-3-3M20 16H6l3 3" stroke-linecap="round" stroke-linejoin="round"/></svg><span>수급</span></a>
+      <a href="../../market/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 12h4l3-8 4 16 3-8h4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>시장</span></a>
+      <a href="../../more/" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h10" stroke-linecap="round" stroke-linejoin="round"/></svg><span>더보기</span></a>
+    </nav>
+    <div class="search" role="search" data-search data-root="../../">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM20 20l-4-4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <label class="sr" for="q">종목 검색</label>
+      <input id="q" type="search" placeholder="종목 이름이나 코드로 찾기" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="q-list" aria-autocomplete="list">
+      <ul id="q-list" role="listbox" hidden></ul>
+    </div>
+  </header>
+  <div class="pagehead">
+    <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5h12v14H6a2 2 0 0 1-2-2zM16 9h4v8a2 2 0 0 1-2 2M8 9h4M8 13h4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    <div><h1>뉴스</h1><p>요즘 뜨는 이슈와 뉴스·공시·블로그 글을 모았어요. 제목과 링크만 싣고, 본문은 원래 글에서 읽어요. <span class="stamp" title="마지막 리포트 시각 · 리포트는 평일 저녁 18:10 · 아침 06:10(화~토) 예약이에요. GitHub 예약이라 보통 몇 시간 늦게 오고, 주말엔 없어요">· 10-31 09:41 아침 기준 · 다음 11-02(월) 18:10 예약</span></p></div>
+  </div>
+  <nav class="subtabs" aria-label="하위 탭">
+<a href="../../feed/">🔥 뜨는 이슈</a><a href="../../feed/latest/">최신</a><a href="../../feed/news/">뉴스 <span class="n">80</span></a><a href="../../feed/dart/">공시 <span class="n">93</span></a><a href="../../feed/blog/">블로그·분석 노트 <span class="n">45</span></a><a href="../../feed/st/" aria-current="page">세이브티커 <span class="n">32</span></a>  </nav>
+  <main id="main">
+<section class="card">
+  <h2>새로 나온 이야기</h2>
+  <div class="grid3">
+    <div class="stat"><div class="big num">250</div><div class="label">최근 14일 자료</div></div>
+    <div class="stat"><div class="big num">88</div><div class="label">오늘 나온 것</div></div>
+    <div class="stat"><div class="big num">32</div><div class="label">세이브티커</div></div>
+  </div>
+
+  <div class="label" style="margin-top:8px">제목과 링크만 모았어요. 본문은 원래 글에서 읽어 주세요(분석 노트만 한 문장 요약). 여기 언급됐다고 매수 신호는 아니에요.</div>
+</section>
+<section class="card">
+  <ul class="plain">
+    <li>
+      <div class="label"><span class="num">10-31</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_254648" target="_blank" rel="noopener noreferrer">(카더라) 트럼프, 미국 중간선거 다음 날 이란 군사공격 재개 계획</a>    </li>
+    <li>
+      <div class="label"><span class="num">10-31</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_254404" target="_blank" rel="noopener noreferrer">(카더라) 블랙스톤 “앤트로픽, IPO 이후에도 투자적격 신용등급 확보 어려울 수 있어”</a>    </li>
+    <li>
+      <div class="label"><span class="num">10-30</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_253016" target="_blank" rel="noopener noreferrer">인텔 - 실적발표</a><div style="margin-top:4px"><a class="chip" href="../../s/INTC/">INTC</a> </div>    </li>
+    <li>
+      <div class="label"><span class="num">10-30</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_253007" target="_blank" rel="noopener noreferrer">아마존 - 실적발표</a><div style="margin-top:4px"><a class="chip" href="../../us/s/AMZN/">AMZN</a> </div>    </li>
+    <li>
+      <div class="label"><span class="num">10-30</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_253051" target="_blank" rel="noopener noreferrer">샌디스크 - 실적발표</a><div style="margin-top:4px"><a class="chip" href="../../s/SNDK/">SNDK</a> </div>    </li>
+    <li>
+      <div class="label"><span class="num">10-30</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_253605" target="_blank" rel="noopener noreferrer">[종합] 바이낸스, 사상 최대 해킹 피해…63억 달러 규모 추정</a>    </li>
+    <li>
+      <div class="label"><span class="num">10-30</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_253610" target="_blank" rel="noopener noreferrer">(카더라) 카타르 중재단, 미국·이란 합의 위해 이란 재방문</a>    </li>
+    <li>
+      <div class="label"><span class="num">10-30</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_252958" target="_blank" rel="noopener noreferrer">(카더라) 미 중동 사령관, 트럼프에 이란 공격 계획 보고</a>    </li>
+    <li>
+      <div class="label"><span class="num">10-30</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_252919" target="_blank" rel="noopener noreferrer">(카더라) 마이크로소프트, 250억 달러 회사채 발행에 4.6배 투자 수요 몰려</a><div style="margin-top:4px"><a class="chip" href="../../us/s/MSFT/">MSFT</a> </div>    </li>
+    <li>
+      <div class="label"><span class="num">10-29</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_250999" target="_blank" rel="noopener noreferrer">오라클 “2030년 매출 2,250억달러… FY2029 잉여현금흐름 300억달러 이상”</a><div style="margin-top:4px"><a class="chip" href="../../s/ORCL/">ORCL</a> </div>    </li>
+    <li>
+      <div class="label"><span class="num">10-29</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_250985" target="_blank" rel="noopener noreferrer">연준, 10대 2로 금리 동결…인플레이션 여전히 높아</a>    </li>
+    <li>
+      <div class="label"><span class="num">10-29</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_251532" target="_blank" rel="noopener noreferrer">삼성전자 - 실적발표</a>    </li>
+    <li>
+      <div class="label"><span class="num">10-29</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_252209" target="_blank" rel="noopener noreferrer">마이크로소프트, 대규모 채권 발행 추진</a><div style="margin-top:4px"><a class="chip" href="../../us/s/MSFT/">MSFT</a> </div>    </li>
+    <li>
+      <div class="label"><span class="num">10-29</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_251197" target="_blank" rel="noopener noreferrer">마이크로소프트 - 실적발표</a><div style="margin-top:4px"><a class="chip" href="../../us/s/MSFT/">MSFT</a> </div>    </li>
+    <li>
+      <div class="label"><span class="num">10-29</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_250917" target="_blank" rel="noopener noreferrer">구글, 제미나이 4 카본 발표…코딩·사이버보안 성능 대폭 향상</a><div style="margin-top:4px"><a class="chip" href="../../s/GOOGL/">GOOGL</a> </div>    </li>
+    <li>
+      <div class="label"><span class="num">10-29</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_251201" target="_blank" rel="noopener noreferrer">구글 - 실적발표</a><div style="margin-top:4px"><a class="chip" href="../../s/GOOGL/">GOOGL</a> </div>    </li>
+    <li>
+      <div class="label"><span class="num">10-29</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_251111" target="_blank" rel="noopener noreferrer">FOMC - 기자회견</a>    </li>
+    <li>
+      <div class="label"><span class="num">10-29</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_251906" target="_blank" rel="noopener noreferrer">(카더라) 미국·이란, 임시 평화협정 협상 진행… 결렬 시 군사작전 재개 전망</a>    </li>
+    <li>
+      <div class="label"><span class="num">10-29</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_251412" target="_blank" rel="noopener noreferrer">(카더라) 마벨, 루멘텀 인수 협상 추진…이르면 다음 주 발표</a><div style="margin-top:4px"><a class="chip" href="../../s/LITE/">LITE</a> <a class="chip" href="../../us/s/MRVL/">MRVL</a> </div>    </li>
+    <li>
+      <div class="label"><span class="num">10-28</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_250054" target="_blank" rel="noopener noreferrer">연준, 10월 금리 동결 유력…12월 추가 인상 가능성 주목</a>    </li>
+    <li>
+      <div class="label"><span class="num">10-28</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_249629" target="_blank" rel="noopener noreferrer">마이크로소프트 - 실적 컨센서스 (위스퍼링 넘버 및 내재 변동성)</a><div style="margin-top:4px"><a class="chip" href="../../us/s/MSFT/">MSFT</a> </div>    </li>
+    <li>
+      <div class="label"><span class="num">10-28</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_249630" target="_blank" rel="noopener noreferrer">구글 - 실적 컨센서스 (위스퍼링 넘버 및 내재 변동성)</a><div style="margin-top:4px"><a class="chip" href="../../s/GOOGL/">GOOGL</a> </div>    </li>
+    <li>
+      <div class="label"><span class="num">10-28</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_249657" target="_blank" rel="noopener noreferrer">SK하이닉스 - 실적발표</a><div style="margin-top:4px"><span class="chip">SKHY</span> </div>    </li>
+    <li>
+      <div class="label"><span class="num">10-28</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_250115" target="_blank" rel="noopener noreferrer">(카더라) 카타르, 이란에 새로운 종전 합의안 제시…이번 주 내 답변 전망</a>    </li>
+    <li>
+      <div class="label"><span class="num">10-28</span> · 세이브티커</div>
+<a href="https://www.saveticker.com/news/news_250010" target="_blank" rel="noopener noreferrer">(카더라) 창신메모리, 수율 20~30%에도 HBM3E 양산 추진</a><div style="margin-top:4px"><a class="chip" href="../../s/MU/">MU</a> <span class="chip">SKHY</span> </div>    </li>
+  </ul>
+</section>
+
+  <nav class="subtabs" aria-label="쪽" style="margin-top:4px">
+<a href="../../feed/st/" aria-current="page">1</a><a href="../../feed/st/2/">2</a>  </nav>
+  </main>
+  <footer>
+    <p class="disclaim" role="note"><b>⚠ 투자 책임 안내</b> — 이 사이트는 개인 투자 규칙을 점검하는 곳이에요. <b>투자 자문이나 매수·매도 추천이 아니에요.</b> 모든 판단과 책임은 본인에게 있어요. 여기 나온 목록·점수·과거 성적은 앞으로의 수익을 보장하지 않고, 원금을 잃을 수 있어요.</p>
+    <p>매수 판단은 정해진 규칙으로만 내려요. <span class="badge opinion">의견</span> 표시가 붙은 건 참고용이에요. 가격은 모두 일봉 종가 기준이에요.</p>
+    <p>리포트 10-31 09:41 아침 기준(다음 11-02(월) 18:10 예약 — 평일 저녁 · 아침만, 보통 몇 시간 늦게 와요) · 사이트 시세 · 뉴스 업데이트 10-31 09:49 KST · 시세 출처 yfinance·FinanceDataReader · 검색엔진에 노출하지 않아요</p>
+    <div class="set">
+      <button type="button" data-set="theme">밝게/어둡게</button>
+      <button type="button" data-set="updown">상승색: 한국식/미국식</button>
+    </div>
+  </footer>
+</div>
+<div class="toast" data-toast role="status" aria-live="polite" hidden></div>
+<script src="../../static/ui.js?v=202610310949" defer></script>
+<script src="../../static/hol.js?v=202610310949" defer></script>
+<script src="../../static/mkt.js?v=202610310949" defer></script>
+</body>
+</html>
