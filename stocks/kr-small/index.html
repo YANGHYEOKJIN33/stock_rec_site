@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="theme-color" content="#F2F4F6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1116" media="(prefers-color-scheme: dark)">
+<title>종목 · 한국 중소형주 · 혁진씨의 주식 분석</title>
+<link rel="manifest" href="../../manifest.webmanifest">
+<link rel="icon" href="../../static/icon.svg" type="image/svg+xml">
+<link rel="icon" href="../../static/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="../../static/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="주식 분석">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script>(function(){try{var r=document.documentElement,t=localStorage.getItem("theme"),u=localStorage.getItem("updown");if(t)r.setAttribute("data-theme",t);if(u)r.setAttribute("data-updown",u);}catch(e){}})();</script>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="../../static/app.css?v=202611070621">
+<script type="speculationrules">{"prefetch": [{"source": "document", "where": {"and": [{"href_matches": "/*"}, {"not": {"selector_matches": "a[target=_blank]"}}]}, "eagerness": "moderate"}]}</script>
+</head>
+<body data-root="../../" data-build="202611070621">
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<div class="wrap">
+  <header class="top">
+    <div class="brandbox">
+      <a class="brand" href="../../"><span class="logo"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 17l5-6 4 3 7-9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>혁진씨의 주식 분석</a>
+      <p class="tagline">사라는거 아니에요. 제발 공부하고 매매합시다.<br>지금 당장 안사도 됩니다 ㅠ.</p>
+      <div class="mktclock" data-mkt aria-label="한국장 · 미국장 상태"></div>
+    </div>
+    <nav class="tabs" aria-label="주 메뉴">
+      <a href="../../"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z" stroke-linecap="round" stroke-linejoin="round"/></svg><span>홈</span></a>
+      <a href="../../scenarios/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 3v12M6 15a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM18 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM18 9c0 5-12 2-12 6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>시나리오</span></a>
+      <a href="../../stocks/" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 3v3M7 17v4M17 3v5M17 15v6M4 6h6v11H4zM14 8h6v7h-6z" stroke-linecap="round" stroke-linejoin="round"/></svg><span>종목</span></a>
+      <a href="../../picks/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 7.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zM12 11.5v1" stroke-linecap="round" stroke-linejoin="round"/></svg><span>추천</span></a>
+      <a href="../../flows/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 8h14l-3-3M20 16H6l3 3" stroke-linecap="round" stroke-linejoin="round"/></svg><span>수급</span></a>
+      <a href="../../market/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 12h4l3-8 4 16 3-8h4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>시장</span></a>
+      <a href="../../more/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h10" stroke-linecap="round" stroke-linejoin="round"/></svg><span>더보기</span></a>
+    </nav>
+    <div class="search" role="search" data-search data-root="../../">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM20 20l-4-4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <label class="sr" for="q">종목 검색</label>
+      <input id="q" type="search" placeholder="종목 이름이나 코드로 찾기" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="q-list" aria-autocomplete="list">
+      <ul id="q-list" role="listbox" hidden></ul>
+    </div>
+  </header>
+  <div class="pagehead">
+    <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 3v3M7 17v4M17 3v5M17 15v6M4 6h6v11H4zM14 8h6v7h-6z" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    <div><h1>종목</h1><p>어떤 종목을 지금 살 수 있는지, 산다면 얼마에 사고 언제 파는지 한 장씩 정리했어요. <span class="stamp" title="마지막 리포트 시각 · 리포트는 평일 저녁 18:10 · 아침 06:10(화~토) 예약이에요. GitHub 예약이라 보통 몇 시간 늦게 오고, 주말엔 없어요">· 11-07 06:12 아침 기준<span data-ago="2026-11-07 06:12"></span> · 다음 11-09(월) 18:10 예약</span></p></div>
+  </div>
+  <nav class="subtabs" aria-label="하위 탭">
+<a href="../../stocks/mine/">☆ 내 관심종목</a><a href="../../stocks/screener/">🔎 조건 검색</a><a href="../../stocks/">관심종목 <span class="n">63</span></a><a href="../../stocks/kr/">한국 대형주 <span class="n">299</span></a><a href="../../stocks/us/">미국 대형주 <span class="n">517</span></a><a href="../../stocks/us-small/">미국 소형주 <span class="n">654</span></a><a href="../../stocks/kr-small/" aria-current="page">한국 중소형주 <span class="n">604</span></a><a href="../../stocks/compare/">두 종목 비교</a>  </nav>
+  <main id="main">
+<section class="card span" data-cardlist data-srcs="../../data/list_kr-small.json" data-root="../../">
+  <div class="row" style="align-items:flex-start">
+    <div><h2 style="margin:0">한국 중소형주 <span class="faint">604개</span></h2>
+      <p class="sub" style="margin:4px 0 0">시가총액<sup class="fn"><a href="#fn-1" id="fr-1" title="주가 × 주식 수, 회사 전체의 몸값이에요.">1</a></sup> 1,000억~1조원 종목이에요. 대형주와 같은 규칙으로 사이트가 계산했어요.</p></div>
+  </div>
+  <div class="levelbar" role="img" aria-label="매수 준비 2개, 추격 금지 1개, 관찰 179개, 피하기 422개" style="margin-top:14px">
+<i class="tone-ready" style="flex:2"></i><i class="tone-wait" style="flex:1"></i><i class="tone-watch" style="flex:179"></i><i class="tone-stop" style="flex:422"></i>  </div>
+  <div class="filters" role="group" aria-label="걸러 보기">
+    <button type="button" data-lv="all" aria-pressed="true">전체 604</button>
+<button type="button" data-lv="ready" aria-pressed="false" class="tone-ready"><span class="sw"></span>매수 준비 2</button><button type="button" data-lv="late" aria-pressed="false" class="tone-wait"><span class="sw"></span>추격 금지 1</button><button type="button" data-lv="watch" aria-pressed="false" class="tone-watch"><span class="sw"></span>관찰 179</button><button type="button" data-lv="avoid" aria-pressed="false" class="tone-stop"><span class="sw"></span>피하기 422</button>  </div>
+  <div class="filters" style="margin-top:10px">
+    <label class="sr" for="lq">이 목록에서 찾기</label>
+    <input id="lq" type="search" data-q placeholder="이 목록에서 이름·코드로 찾기" autocomplete="off">
+    <label class="sr" for="ls">정렬</label>
+    <select id="ls" data-sort><option value="best">좋은 순서</option><option value="near">매수가에 가까운 순</option><option value="pr">오를 가능성 높은 순</option><option value="rs">시장보다 강한 순</option><option value="d1">오늘 많이 오른 순</option></select>
+    <span class="label" data-count aria-live="polite"></span>
+  </div>
+  <ul class="cards" style="margin-top:14px">
+<li><a class="scard" href="../../k/s/079160/">
+  <div class="top2"><div style="min-width:0"><div class="nm">CJ CGV</div><div class="cd" title="영화, 비디오물, 방송프로그램 제작 및 배급업">079160 · 영화, 비디오물, 방송프…</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">5,160<span class="down">−1.9%</span></div>
+  <div class="meta">매수가 5,350 · 3.7% 남음 · 조건 3/5 · <span class="ct tone-watch" title="차트 유형(참고) 박스권 · 방향 대기 · 점수 52 · 방향 중립">🧭박스권</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 3204번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-go" style="width:66%"></i></span><b class="num">66<small>%</small></b><span class="stt tone-go">높음</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 4,815, 매수가 5,350, 1차 목표 5,584, 지금 5,160">
+  <span class="track"></span>
+  <span class="loss" style="left:9.9%;width:54.7%"></span>
+  <span class="gain" style="left:64.6%;width:24.0%"></span>
+  <span class="tick" style="left:9.9%"></span><span class="tick" style="left:64.6%;background:var(--accent)"></span><span class="tick" style="left:88.6%"></span>
+  <span class="tl" style="left:9.9%">손절</span><span class="tl" style="left:64.6%;color:var(--accent)">매수가</span><span class="tl" style="left:88.6%">목표</span>
+  <span class="now" style="left:45.2%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="079160" data-name="CJ CGV" aria-pressed="false" aria-label="CJ CGV 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/003850/">
+  <div class="top2"><div style="min-width:0"><div class="nm">보령</div><div class="cd" title="의약품 제조업">003850 · 의약품 제조업</div></div><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></div>
+  <div class="px">8,530<span class="up">+0.2%</span></div>
+  <div class="meta">매수가 8,700 · 2.0% 남음 · 조건 3/5 · <span class="ct tone-wait" title="차트 유형(참고) 약세 · 반등 시도 · 점수 37 · 방향 하락 쪽">🧭약세 반등</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 3204번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-go" style="width:66%"></i></span><b class="num">66<small>%</small></b><span class="stt tone-go">높음</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 7,830, 매수가 8,700, 1차 목표 9,110, 지금 8,530">
+  <span class="track"></span>
+  <span class="loss" style="left:9.7%;width:53.7%"></span>
+  <span class="gain" style="left:63.4%;width:25.3%"></span>
+  <span class="tick" style="left:9.7%"></span><span class="tick" style="left:63.4%;background:var(--accent)"></span><span class="tick" style="left:88.7%"></span>
+  <span class="tl" style="left:9.7%">손절</span><span class="tl" style="left:63.4%;color:var(--accent)">매수가</span><span class="tl" style="left:88.7%">목표</span>
+  <span class="now" style="left:52.9%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="003850" data-name="보령" aria-pressed="false" aria-label="보령 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/121440/">
+  <div class="top2"><div style="min-width:0"><div class="nm">골프존홀딩스</div><div class="cd" title="상품 중개업">121440 · 상품 중개업</div></div><span class="pill tone-wait"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6v12M15 6v12" stroke-linecap="round" stroke-linejoin="round"/></svg>추격 금지</span></div>
+  <div class="px">8,840<span class="up">+8.5%</span></div>
+  <div class="meta">매수가 8,260 · 이미 넘음 · 조건 4/5 · <span class="ct tone-go" title="차트 유형(참고) 주도주 · 매수 자리 · 점수 88 · 방향 상승 우세">🧭주도·매수 자리</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 1677번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-ready" style="width:54%"></i></span><b class="num">54<small>%</small></b><span class="stt tone-ready">반 이상</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 7,434, 매수가 8,260, 1차 목표 8,970, 지금 8,840">
+  <span class="track"></span>
+  <span class="loss" style="left:8.0%;width:44.3%"></span>
+  <span class="gain" style="left:52.3%;width:38.1%"></span>
+  <span class="tick" style="left:8.0%"></span><span class="tick" style="left:52.3%;background:var(--accent)"></span><span class="tick" style="left:90.4%"></span>
+  <span class="tl" style="left:8.0%">손절</span><span class="tl" style="left:52.3%;color:var(--accent)">매수가</span><span class="tl" style="left:90.4%">목표</span>
+  <span class="now" style="left:83.4%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="121440" data-name="골프존홀딩스" aria-pressed="false" aria-label="골프존홀딩스 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/093320/">
+  <div class="top2"><div style="min-width:0"><div class="nm">케이아이엔엑스</div><div class="cd" title="자료처리, 호스팅, 포털 및 기타 인터넷 정보매개 서비스업">093320 · 자료처리, 호스팅, 포털…</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">175,000<span class="down">−0.2%</span></div>
+  <div class="meta">매수가 180,300 · 3.0% 남음 · 조건 2/5 · <span class="ct tone-go" title="차트 유형(참고) 주도주 · 매수 자리 · 점수 91 · 방향 상승 우세">🧭주도·매수 자리</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 1353번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-wait" style="width:40%"></i></span><b class="num">40<small>%</small></b><span class="stt tone-wait">보통</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 162,270, 매수가 180,300, 1차 목표 216,360, 지금 175,000">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:25.9%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="093320" data-name="케이아이엔엑스" aria-pressed="false" aria-label="케이아이엔엑스 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/002960/">
+  <div class="top2"><div style="min-width:0"><div class="nm">한국쉘석유</div><div class="cd" title="석유 정제품 제조업">002960 · 석유 정제품 제조업</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">522,000<span class="up">+2.1%</span></div>
+  <div class="meta">매수가 571,000 · 9.4% 남음 · 조건 2/5 · <span class="ct tone-go" title="차트 유형(참고) 주도주 · 매수 자리 · 점수 74 · 방향 중립">🧭주도·매수 자리</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 1677번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-ready" style="width:54%"></i></span><b class="num">54<small>%</small></b><span class="stt tone-ready">반 이상</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 513,900, 매수가 571,000, 1차 목표 620,000, 지금 522,000">
+  <span class="track"></span>
+  <span class="loss" style="left:8.0%;width:44.3%"></span>
+  <span class="gain" style="left:52.3%;width:38.1%"></span>
+  <span class="tick" style="left:8.0%"></span><span class="tick" style="left:52.3%;background:var(--accent)"></span><span class="tick" style="left:90.4%"></span>
+  <span class="tl" style="left:8.0%">손절</span><span class="tl" style="left:52.3%;color:var(--accent)">매수가</span><span class="tl" style="left:90.4%">목표</span>
+  <span class="now" style="left:14.3%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="002960" data-name="한국쉘석유" aria-pressed="false" aria-label="한국쉘석유 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/453340/">
+  <div class="top2"><div style="min-width:0"><div class="nm">현대그린푸드</div><div class="cd" title="종합 소매업">453340 · 종합 소매업</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">20,250<span class="up">+0.5%</span></div>
+  <div class="meta">매수가 21,100 · 4.2% 남음 · 조건 2/5 · <span class="ct tone-ready" title="차트 유형(참고) 주도주 · 돌파 대기 · 점수 85 · 방향 상승 우세">🧭주도·돌파 대기</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 1353번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-wait" style="width:40%"></i></span><b class="num">40<small>%</small></b><span class="stt tone-wait">보통</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 18,990, 매수가 21,100, 1차 목표 25,320, 지금 20,250">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:22.7%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="453340" data-name="현대그린푸드" aria-pressed="false" aria-label="현대그린푸드 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/079940/">
+  <div class="top2"><div style="min-width:0"><div class="nm">가비아</div><div class="cd" title="소프트웨어 개발 및 공급업">079940 · 소프트웨어 개발 및 공급업</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">49,400<span class="faint">0%</span></div>
+  <div class="meta">매수가 51,200 · 3.6% 남음 · 조건 2/5 · <span class="ct tone-ready" title="차트 유형(참고) 주도주 · 돌파 대기 · 점수 81 · 방향 상승 우세">🧭주도·돌파 대기</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 1353번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-wait" style="width:40%"></i></span><b class="num">40<small>%</small></b><span class="stt tone-wait">보통</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 46,080, 매수가 51,200, 1차 목표 61,440, 지금 49,400">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:24.2%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="079940" data-name="가비아" aria-pressed="false" aria-label="가비아 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/396300/">
+  <div class="top2"><div style="min-width:0"><div class="nm">HT로보틱스</div><div class="cd" title="기타 금속 가공제품 제조업">396300 · 기타 금속 가공제품 제조업</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">6,680<span class="down">−7.0%</span></div>
+  <div class="meta">매수가 11,690 · 75.0% 남음 · 조건 2/5 · <span class="ct tone-ready" title="차트 유형(참고) 주도주 · 돌파 대기 · 점수 79 · 방향 상승 쪽">🧭주도·돌파 대기</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 1353번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-wait" style="width:40%"></i></span><b class="num">40<small>%</small></b><span class="stt tone-wait">보통</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 10,521, 매수가 11,690, 1차 목표 14,028, 지금 6,680">
+  <span class="track"></span>
+  <span class="loss" style="left:51.2%;width:15.1%"></span>
+  <span class="gain" style="left:66.3%;width:30.1%"></span>
+  <span class="tick" style="left:51.2%"></span><span class="tick" style="left:66.3%;background:var(--accent)"></span><span class="tick" style="left:96.4%"></span>
+  <span class="tl" style="left:51.2%">손절</span><span class="tl" style="left:66.3%;color:var(--accent)">매수가</span><span class="tl" style="left:96.4%">목표</span>
+  <span class="now" style="left:2%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="396300" data-name="HT로보틱스" aria-pressed="false" aria-label="HT로보틱스 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/005430/">
+  <div class="top2"><div style="min-width:0"><div class="nm">한국공항</div><div class="cd" title="기타 운송관련 서비스업">005430 · 기타 운송관련 서비스업</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">86,000<span class="down">−0.9%</span></div>
+  <div class="meta">매수가 96,800 · 12.6% 남음 · 조건 2/5 · <span class="ct tone-ready" title="차트 유형(참고) 주도주 · 돌파 대기 · 점수 78 · 방향 상승 쪽">🧭주도·돌파 대기</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 3204번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-go" style="width:66%"></i></span><b class="num">66<small>%</small></b><span class="stt tone-go">높음</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 87,120, 매수가 96,800, 1차 목표 102,600, 지금 86,000">
+  <span class="track"></span>
+  <span class="loss" style="left:13.9%;width:47.6%"></span>
+  <span class="gain" style="left:61.5%;width:28.4%"></span>
+  <span class="tick" style="left:13.9%"></span><span class="tick" style="left:61.5%;background:var(--accent)"></span><span class="tick" style="left:89.9%"></span>
+  <span class="tl" style="left:13.9%">손절</span><span class="tl" style="left:61.5%;color:var(--accent)">매수가</span><span class="tl" style="left:89.9%">목표</span>
+  <span class="now" style="left:8.4%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="005430" data-name="한국공항" aria-pressed="false" aria-label="한국공항 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/017890/">
+  <div class="top2"><div style="min-width:0"><div class="nm">한국알콜</div><div class="cd" title="기타 화학제품 제조업">017890 · 기타 화학제품 제조업</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">15,500<span class="down">−3.2%</span></div>
+  <div class="meta">매수가 16,960 · 9.4% 남음 · 조건 1/5 · <span class="ct tone-ready" title="차트 유형(참고) 주도주 · 돌파 대기 · 점수 91 · 방향 상승 우세">🧭주도·돌파 대기</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 1353번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-wait" style="width:40%"></i></span><b class="num">40<small>%</small></b><span class="stt tone-wait">보통</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 15,264, 매수가 16,960, 1차 목표 20,352, 지금 15,500">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:9.3%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="017890" data-name="한국알콜" aria-pressed="false" aria-label="한국알콜 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/092730/">
+  <div class="top2"><div style="min-width:0"><div class="nm">네오팜</div><div class="cd" title="기타 화학제품 제조업">092730 · 기타 화학제품 제조업</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">23,500<span class="down">−3.3%</span></div>
+  <div class="meta">매수가 25,100 · 6.8% 남음 · 조건 1/5 · <span class="ct tone-ready" title="차트 유형(참고) 주도주 · 돌파 대기 · 점수 85 · 방향 상승 우세">🧭주도·돌파 대기</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 3204번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-go" style="width:66%"></i></span><b class="num">66<small>%</small></b><span class="stt tone-go">높음</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 22,590, 매수가 25,100, 1차 목표 25,888, 지금 23,500">
+  <span class="track"></span>
+  <span class="loss" style="left:10.6%;width:58.8%"></span>
+  <span class="gain" style="left:69.4%;width:18.5%"></span>
+  <span class="tick" style="left:10.6%"></span><span class="tick" style="left:69.4%;background:var(--accent)"></span><span class="tick" style="left:87.9%"></span>
+  <span class="tl" style="left:10.6%">손절</span><span class="tl" style="left:69.4%;color:var(--accent)">매수가</span><span class="tl" style="left:87.9%">목표</span>
+  <span class="now" style="left:31.9%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="092730" data-name="네오팜" aria-pressed="false" aria-label="네오팜 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/251970/">
+  <div class="top2"><div style="min-width:0"><div class="nm">펌텍코리아</div><div class="cd" title="플라스틱제품 제조업">251970 · 플라스틱제품 제조업</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">70,300<span class="up">+2.0%</span></div>
+  <div class="meta">매수가 73,200 · 4.1% 남음 · 조건 1/5 · <span class="ct tone-ready" title="차트 유형(참고) 주도주 · 돌파 대기 · 점수 75 · 방향 상승 쪽">🧭주도·돌파 대기</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 1353번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-wait" style="width:40%"></i></span><b class="num">40<small>%</small></b><span class="stt tone-wait">보통</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 65,880, 매수가 73,200, 1차 목표 87,840, 지금 70,300">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:22.9%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="251970" data-name="펌텍코리아" aria-pressed="false" aria-label="펌텍코리아 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/051160/">
+  <div class="top2"><div style="min-width:0"><div class="nm">지어소프트</div><div class="cd" title="소프트웨어 개발 및 공급업">051160 · 소프트웨어 개발 및 공급업</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">13,460<span class="down">−0.5%</span></div>
+  <div class="meta">매수가 15,600 · 15.9% 남음 · 조건 2/5 · <span class="ct tone-ready" title="차트 유형(참고) 주도주 · 눌림목 · 점수 88 · 방향 상승 쪽">🧭주도·눌림목</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 1353번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-wait" style="width:40%"></i></span><b class="num">40<small>%</small></b><span class="stt tone-wait">보통</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 14,040, 매수가 15,600, 1차 목표 18,720, 지금 13,460">
+  <span class="track"></span>
+  <span class="loss" style="left:14.4%;width:26.4%"></span>
+  <span class="gain" style="left:40.8%;width:52.9%"></span>
+  <span class="tick" style="left:14.4%"></span><span class="tick" style="left:40.8%;background:var(--accent)"></span><span class="tick" style="left:93.7%"></span>
+  <span class="tl" style="left:14.4%">손절</span><span class="tl" style="left:40.8%;color:var(--accent)">매수가</span><span class="tl" style="left:93.7%">목표</span>
+  <span class="now" style="left:4.6%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="051160" data-name="지어소프트" aria-pressed="false" aria-label="지어소프트 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/004100/">
+  <div class="top2"><div style="min-width:0"><div class="nm">태양금속</div><div class="cd" title="자동차 신품 부품 제조업">004100 · 자동차 신품 부품 제조업</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">2,965<span class="up">+2.8%</span></div>
+  <div class="meta">매수가 3,250 · 9.6% 남음 · 조건 2/5 · <span class="ct tone-ready" title="차트 유형(참고) 주도주 · 눌림목 · 점수 85 · 방향 상승 쪽">🧭주도·눌림목</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 3204번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-go" style="width:66%"></i></span><b class="num">66<small>%</small></b><span class="stt tone-go">높음</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 2,925, 매수가 3,250, 1차 목표 3,395, 지금 2,965">
+  <span class="track"></span>
+  <span class="loss" style="left:9.8%;width:54.5%"></span>
+  <span class="gain" style="left:64.3%;width:24.3%"></span>
+  <span class="tick" style="left:9.8%"></span><span class="tick" style="left:64.3%;background:var(--accent)"></span><span class="tick" style="left:88.6%"></span>
+  <span class="tl" style="left:9.8%">손절</span><span class="tl" style="left:64.3%;color:var(--accent)">매수가</span><span class="tl" style="left:88.6%">목표</span>
+  <span class="now" style="left:16.5%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="004100" data-name="태양금속" aria-pressed="false" aria-label="태양금속 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/071200/">
+  <div class="top2"><div style="min-width:0"><div class="nm">인피니트헬스케어</div><div class="cd" title="소프트웨어 개발 및 공급업">071200 · 소프트웨어 개발 및 공급업</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">11,260<span class="down">−2.0%</span></div>
+  <div class="meta">매수가 11,860 · 5.3% 남음 · 조건 2/5 · <span class="ct tone-ready" title="차트 유형(참고) 주도주 · 눌림목 · 점수 81 · 방향 중립">🧭주도·눌림목</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 1677번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-ready" style="width:54%"></i></span><b class="num">54<small>%</small></b><span class="stt tone-ready">반 이상</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 10,674, 매수가 11,860, 1차 목표 13,037, 지금 11,260">
+  <span class="track"></span>
+  <span class="loss" style="left:7.5%;width:41.8%"></span>
+  <span class="gain" style="left:49.3%;width:41.5%"></span>
+  <span class="tick" style="left:7.5%"></span><span class="tick" style="left:49.3%;background:var(--accent)"></span><span class="tick" style="left:90.8%"></span>
+  <span class="tl" style="left:7.5%">손절</span><span class="tl" style="left:49.3%;color:var(--accent)">매수가</span><span class="tl" style="left:90.8%">목표</span>
+  <span class="now" style="left:28.2%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="071200" data-name="인피니트헬스케어" aria-pressed="false" aria-label="인피니트헬스케어 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/219130/">
+  <div class="top2"><div style="min-width:0"><div class="nm">타이거일렉</div><div class="cd" title="전자부품 제조업">219130 · 전자부품 제조업</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">81,600<span class="down">−7.4%</span></div>
+  <div class="meta">매수가 102,900 · 26.1% 남음 · 조건 2/5 · <span class="ct tone-ready" title="차트 유형(참고) 주도주 · 눌림목 · 점수 81 · 방향 중립">🧭주도·눌림목</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 1353번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-wait" style="width:40%"></i></span><b class="num">40<small>%</small></b><span class="stt tone-wait">보통</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 92,610, 매수가 102,900, 1차 목표 123,480, 지금 81,600">
+  <span class="track"></span>
+  <span class="loss" style="left:27.5%;width:22.4%"></span>
+  <span class="gain" style="left:49.9%;width:44.7%"></span>
+  <span class="tick" style="left:27.5%"></span><span class="tick" style="left:49.9%;background:var(--accent)"></span><span class="tick" style="left:94.6%"></span>
+  <span class="tl" style="left:27.5%">손절</span><span class="tl" style="left:49.9%;color:var(--accent)">매수가</span><span class="tl" style="left:94.6%">목표</span>
+  <span class="now" style="left:3.5%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="219130" data-name="타이거일렉" aria-pressed="false" aria-label="타이거일렉 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/044450/">
+  <div class="top2"><div style="min-width:0"><div class="nm">KSS해운</div><div class="cd" title="해상 운송업">044450 · 해상 운송업</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">11,630<span class="down">−0.1%</span></div>
+  <div class="meta">매수가 12,610 · 8.4% 남음 · 조건 2/5 · <span class="ct tone-ready" title="차트 유형(참고) 주도주 · 눌림목 · 점수 75 · 방향 하락 쪽">🧭주도·눌림목</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 1677번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-ready" style="width:54%"></i></span><b class="num">54<small>%</small></b><span class="stt tone-ready">반 이상</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 11,349, 매수가 12,610, 1차 목표 13,670, 지금 11,630">
+  <span class="track"></span>
+  <span class="loss" style="left:8.0%;width:44.7%"></span>
+  <span class="gain" style="left:52.7%;width:37.6%"></span>
+  <span class="tick" style="left:8.0%"></span><span class="tick" style="left:52.7%;background:var(--accent)"></span><span class="tick" style="left:90.3%"></span>
+  <span class="tl" style="left:8.0%">손절</span><span class="tl" style="left:52.7%;color:var(--accent)">매수가</span><span class="tl" style="left:90.3%">목표</span>
+  <span class="now" style="left:18.0%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="044450" data-name="KSS해운" aria-pressed="false" aria-label="KSS해운 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/100120/">
+  <div class="top2"><div style="min-width:0"><div class="nm">뷰웍스</div><div class="cd" title="의료용 기기 제조업">100120 · 의료용 기기 제조업</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">27,900<span class="down">−4.5%</span></div>
+  <div class="meta">매수가 32,100 · 15.1% 남음 · 조건 2/5 · <span class="ct tone-ready" title="차트 유형(참고) 주도주 · 눌림목 · 점수 72 · 방향 하락 쪽">🧭주도·눌림목</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 1677번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-ready" style="width:54%"></i></span><b class="num">54<small>%</small></b><span class="stt tone-ready">반 이상</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 28,890, 매수가 32,100, 1차 목표 34,900, 지금 27,900">
+  <span class="track"></span>
+  <span class="loss" style="left:18.8%;width:38.8%"></span>
+  <span class="gain" style="left:57.6%;width:33.9%"></span>
+  <span class="tick" style="left:18.8%"></span><span class="tick" style="left:57.6%;background:var(--accent)"></span><span class="tick" style="left:91.5%"></span>
+  <span class="tl" style="left:18.8%">손절</span><span class="tl" style="left:57.6%;color:var(--accent)">매수가</span><span class="tl" style="left:91.5%">목표</span>
+  <span class="now" style="left:6.8%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="100120" data-name="뷰웍스" aria-pressed="false" aria-label="뷰웍스 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/000400/">
+  <div class="top2"><div style="min-width:0"><div class="nm">롯데손해보험</div><div class="cd" title="보험업">000400 · 보험업</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">2,500<span class="up">+5.5%</span></div>
+  <div class="meta">매수가 2,835 · 13.4% 남음 · 조건 1/5 · <span class="ct tone-ready" title="차트 유형(참고) 주도주 · 눌림목 · 점수 80 · 방향 중립">🧭주도·눌림목</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 1437번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-wait" style="width:46%"></i></span><b class="num">46<small>%</small></b><span class="stt tone-wait">보통</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 2,552, 매수가 2,835, 1차 목표 3,280, 지금 2,500">
+  <span class="track"></span>
+  <span class="loss" style="left:11.3%;width:31.7%"></span>
+  <span class="gain" style="left:43.0%;width:49.7%"></span>
+  <span class="tick" style="left:11.3%"></span><span class="tick" style="left:43.0%;background:var(--accent)"></span><span class="tick" style="left:92.7%"></span>
+  <span class="tl" style="left:11.3%">손절</span><span class="tl" style="left:43.0%;color:var(--accent)">매수가</span><span class="tl" style="left:92.7%">목표</span>
+  <span class="now" style="left:5.6%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="000400" data-name="롯데손해보험" aria-pressed="false" aria-label="롯데손해보험 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/104700/">
+  <div class="top2"><div style="min-width:0"><div class="nm">한국철강</div><div class="cd" title="1차 철강 제조업">104700 · 1차 철강 제조업</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">12,900<span class="down">−0.1%</span></div>
+  <div class="meta">매수가 12,960 · 0.5% 남음 · 조건 1/5 · <span class="ct tone-wait" title="차트 유형(참고) 주도주 · 많이 오름 · 점수 95 · 방향 상승 우세">🧭주도·많이 오름</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 1353번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-wait" style="width:40%"></i></span><b class="num">40<small>%</small></b><span class="stt tone-wait">보통</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 11,664, 매수가 12,960, 1차 목표 15,552, 지금 12,900">
+  <span class="track"></span>
+  <span class="loss" style="left:5.3%;width:29.2%"></span>
+  <span class="gain" style="left:34.5%;width:58.5%"></span>
+  <span class="tick" style="left:5.3%"></span><span class="tick" style="left:34.5%;background:var(--accent)"></span><span class="tick" style="left:93.0%"></span>
+  <span class="tl" style="left:5.3%">손절</span><span class="tl" style="left:34.5%;color:var(--accent)">매수가</span><span class="tl" style="left:93.0%">목표</span>
+  <span class="now" style="left:33.1%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="104700" data-name="한국철강" aria-pressed="false" aria-label="한국철강 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/005180/">
+  <div class="top2"><div style="min-width:0"><div class="nm">빙그레</div><div class="cd" title="동·식물성 유지 및 낙농제품 제조업">005180 · 동·식물성 유지 및 낙농제품 제조업</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">81,900<span class="down">−2.1%</span></div>
+  <div class="meta">매수가 92,700 · 13.2% 남음 · 조건 3/5 · <span class="ct tone-watch" title="차트 유형(참고) 주도주 · 자리 기다림 · 점수 77 · 방향 상승 쪽">🧭주도·자리 대기</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 3204번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-go" style="width:66%"></i></span><b class="num">66<small>%</small></b><span class="stt tone-go">높음</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 83,430, 매수가 92,700, 1차 목표 96,000, 지금 81,900">
+  <span class="track"></span>
+  <span class="loss" style="left:17.9%;width:52.5%"></span>
+  <span class="gain" style="left:70.4%;width:18.7%"></span>
+  <span class="tick" style="left:17.9%"></span><span class="tick" style="left:70.4%;background:var(--accent)"></span><span class="tick" style="left:89.1%"></span>
+  <span class="tl" style="left:17.9%">손절</span><span class="tl" style="left:70.4%;color:var(--accent)">매수가</span><span class="tl" style="left:89.1%">목표</span>
+  <span class="now" style="left:9.3%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="005180" data-name="빙그레" aria-pressed="false" aria-label="빙그레 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/261780/">
+  <div class="top2"><div style="min-width:0"><div class="nm">아리바이오랩</div><div class="cd" title="자연과학 및 공학 연구개발업">261780 · 자연과학 및 공학 연구개발업</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">4,300<span class="up">+11.7%</span></div>
+  <div class="meta">매수가 4,275 · 이미 넘음 · 조건 2/5 · <span class="ct tone-watch" title="차트 유형(참고) 주도주 · 자리 기다림 · 점수 84 · 방향 상승 쪽">🧭주도·자리 대기</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 1677번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-ready" style="width:54%"></i></span><b class="num">54<small>%</small></b><span class="stt tone-ready">반 이상</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 3,848, 매수가 4,275, 1차 목표 4,686, 지금 4,300">
+  <span class="track"></span>
+  <span class="loss" style="left:7.6%;width:42.4%"></span>
+  <span class="gain" style="left:50.0%;width:40.7%"></span>
+  <span class="tick" style="left:7.6%"></span><span class="tick" style="left:50.0%;background:var(--accent)"></span><span class="tick" style="left:90.7%"></span>
+  <span class="tl" style="left:7.6%">손절</span><span class="tl" style="left:50.0%;color:var(--accent)">매수가</span><span class="tl" style="left:90.7%">목표</span>
+  <span class="now" style="left:52.4%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="261780" data-name="아리바이오랩" aria-pressed="false" aria-label="아리바이오랩 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/094840/">
+  <div class="top2"><div style="min-width:0"><div class="nm">슈프리마에이치큐</div><div class="cd" title="통신 및 방송 장비 제조업">094840 · 통신 및 방송 장비 제조업</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">12,980<span class="up">+0.3%</span></div>
+  <div class="meta">매수가 13,410 · 3.3% 남음 · 조건 2/5 · <span class="ct tone-watch" title="차트 유형(참고) 주도주 · 자리 기다림 · 점수 84 · 방향 상승 쪽">🧭주도·자리 대기</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 3204번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-go" style="width:66%"></i></span><b class="num">66<small>%</small></b><span class="stt tone-go">높음</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 12,069, 매수가 13,410, 1차 목표 13,820, 지금 12,980">
+  <span class="track"></span>
+  <span class="loss" style="left:10.6%;width:59.1%"></span>
+  <span class="gain" style="left:69.7%;width:18.1%"></span>
+  <span class="tick" style="left:10.6%"></span><span class="tick" style="left:69.7%;background:var(--accent)"></span><span class="tick" style="left:87.8%"></span>
+  <span class="tl" style="left:10.6%">손절</span><span class="tl" style="left:69.7%;color:var(--accent)">매수가</span><span class="tl" style="left:87.8%">목표</span>
+  <span class="now" style="left:50.8%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="094840" data-name="슈프리마에이치큐" aria-pressed="false" aria-label="슈프리마에이치큐 내 관심종목에 넣기/빼기">☆</button></li>
+<li><a class="scard" href="../../k/s/012030/">
+  <div class="top2"><div style="min-width:0"><div class="nm">DB</div><div class="cd" title="컴퓨터 프로그래밍, 시스템 통합 및 관리업">012030 · 컴퓨터 프로그래밍, 시스…</div></div><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></div>
+  <div class="px">2,085<span class="down">−7.1%</span></div>
+  <div class="meta">매수가 2,640 · 26.6% 남음 · 조건 2/5 · <span class="ct tone-watch" title="차트 유형(참고) 주도주 · 자리 기다림 · 점수 80 · 방향 상승 쪽">🧭주도·자리 대기</span></div>
+  <div class="pmini" title="1차 목표에 손절보다 먼저 닿은 비율 — 지난 1년 비슷한 거리(모든 기법) 1353번 · 규칙 매수가 기준"><span class="pbl">오를 가능성</span><span class="pb" aria-hidden="true"><i class="tone-wait" style="width:40%"></i></span><b class="num">40<small>%</small></b><span class="stt tone-wait">보통</span></div>
+
+<div class="ladder" role="img" aria-label="손절가 2,376, 매수가 2,640, 1차 목표 3,168, 지금 2,085">
+  <span class="track"></span>
+  <span class="loss" style="left:28.0%;width:22.2%"></span>
+  <span class="gain" style="left:50.2%;width:44.5%"></span>
+  <span class="tick" style="left:28.0%"></span><span class="tick" style="left:50.2%;background:var(--accent)"></span><span class="tick" style="left:94.7%"></span>
+  <span class="tl" style="left:28.0%">손절</span><span class="tl" style="left:50.2%;color:var(--accent)">매수가</span><span class="tl" style="left:94.7%">목표</span>
+  <span class="now" style="left:3.5%"><b>지금</b><i></i><s></s></span>
+</div>
+</a><button type="button" class="star" data-star="012030" data-name="DB" aria-pressed="false" aria-label="DB 내 관심종목에 넣기/빼기">☆</button></li>
+  </ul>
+<noscript><div class="label" style="margin-top:10px">좋은 순서로 24개만 보여요. 나머지는 위 검색창에서 찾아보세요.</div></noscript></section>
+
+<section class="card span">
+  <details>
+    <summary>카드 읽는 법</summary>
+    <div class="body">
+      <dl class="gloss">
+        <dt><span class="pill tone-go"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 가능</span></dt><dd>매수 조건 4가지와 시장 날씨를 모두 통과했어요. 매수가 근처에서 살 수 있어요.</dd>
+        <dt><span class="pill tone-ready"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>매수 준비</span></dt><dd>조건을 거의 채웠고 매수가에 가까워요. 매수가를 힘 있게 넘는지 지켜봐요.</dd>
+        <dt><span class="pill tone-wait"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6v12M15 6v12" stroke-linecap="round" stroke-linejoin="round"/></svg>시장 대기</span> <span class="pill tone-wait"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6v12M15 6v12" stroke-linecap="round" stroke-linejoin="round"/></svg>추격 금지</span></dt><dd>종목은 좋은데 시장이 나쁘거나, 이미 매수가보다 5% 넘게 올라 쫓아 사지 않아요.</dd>
+        <dt><span class="pill tone-watch"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke-linecap="round" stroke-linejoin="round"/></svg>관찰</span></dt><dd>아직 조건이 모자라요. 목록에 두고 지켜만 봐요.</dd>
+        <dt><span class="pill tone-stop"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11" stroke-linecap="round" stroke-linejoin="round"/></svg>피하기</span></dt><dd>주가가 내려가는 흐름이에요. 떨어지는 칼날은 잡지 않아요.</dd>
+        <dt>막대(손절 · 매수가 · 목표)</dt><dd>동그라미가 지금 가격이에요. 매수가에서 사면 손절가(−10%) 아래에서 팔고, 목표(+20%)에서 절반을 팔아요.</dd>
+        <dt>조건 3/5</dt><dd>매수 조건 4가지 + 시장 날씨, 모두 5개 중 몇 개를 채웠는지예요.</dd>
+      </dl>
+    </div>
+  </details>
+</section>
+  </main><aside class="fnbox" aria-label="단어 풀이"><h2>단어 풀이 <span class="faint">· 이 쪽에 나온 어려운 말</span></h2><dl class="fnlist"><dt id="fn-1"><a href="#fr-1">1</a> 시가총액</dt><dd>주가 × 주식 수, 회사 전체의 몸값이에요.</dd></dl></aside>
+  <footer>
+    <p class="disclaim" role="note"><b>⚠ 투자 책임 안내</b> — 이 사이트는 개인 투자 규칙을 점검하는 곳이에요. <b>투자 자문이나 매수·매도 추천이 아니에요.</b> 모든 판단과 책임은 본인에게 있어요. 여기 나온 목록·점수·과거 성적은 앞으로의 수익을 보장하지 않고, 원금을 잃을 수 있어요.</p>
+    <p>매수 판단은 정해진 규칙으로만 내려요. <span class="badge opinion">의견</span> 표시가 붙은 건 참고용이에요. 가격은 모두 일봉 종가 기준이에요.</p>
+    <p>리포트 11-07 06:12 아침 기준(다음 11-09(월) 18:10 예약 — 평일 저녁 · 아침만, 보통 몇 시간 늦게 와요) · 사이트 시세 · 뉴스 업데이트 11-07 06:21 KST<span data-ago="202611070621"></span> · 시세 출처 yfinance·FinanceDataReader · 검색엔진에 노출하지 않아요</p>
+    <div class="set">
+      <button type="button" data-set="theme">밝게/어둡게</button>
+      <button type="button" data-set="updown">상승색: 한국식/미국식</button>
+      <button type="button" data-help>⌨ 편의기능 · 단축키</button>
+      <button type="button" data-sharepage>🔗 이 쪽 공유</button>
+      <button type="button" data-install hidden>📲 홈 화면에 설치</button>
+    </div>
+  </footer>
+</div>
+<div class="toast" data-toast role="status" aria-live="polite" hidden></div>
+<script src="../../static/ui.js?v=202611070621" defer></script>
+<script src="../../static/hol.js?v=202611070621" defer></script>
+<script src="../../static/mkt.js?v=202611070621" defer></script>
+<script src="../../static/conv.js?v=202611070621" defer></script>
+</body>
+</html>

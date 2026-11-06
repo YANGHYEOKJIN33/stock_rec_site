@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="theme-color" content="#F2F4F6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1116" media="(prefers-color-scheme: dark)">
+<title>시나리오 주가 예측 · S&amp;P500 11/20 · 혁진씨의 주식 분석</title>
+<link rel="manifest" href="../../../manifest.webmanifest">
+<link rel="icon" href="../../../static/icon.svg" type="image/svg+xml">
+<link rel="icon" href="../../../static/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="../../../static/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="주식 분석">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script>(function(){try{var r=document.documentElement,t=localStorage.getItem("theme"),u=localStorage.getItem("updown");if(t)r.setAttribute("data-theme",t);if(u)r.setAttribute("data-updown",u);}catch(e){}})();</script>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="../../../static/app.css?v=202611070621">
+<script type="speculationrules">{"prefetch": [{"source": "document", "where": {"and": [{"href_matches": "/*"}, {"not": {"selector_matches": "a[target=_blank]"}}]}, "eagerness": "moderate"}]}</script>
+</head>
+<body data-root="../../../" data-build="202611070621">
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<div class="wrap">
+  <header class="top">
+    <div class="brandbox">
+      <a class="brand" href="../../../"><span class="logo"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 17l5-6 4 3 7-9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>혁진씨의 주식 분석</a>
+      <p class="tagline">사라는거 아니에요. 제발 공부하고 매매합시다.<br>지금 당장 안사도 됩니다 ㅠ.</p>
+      <div class="mktclock" data-mkt aria-label="한국장 · 미국장 상태"></div>
+    </div>
+    <nav class="tabs" aria-label="주 메뉴">
+      <a href="../../../"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z" stroke-linecap="round" stroke-linejoin="round"/></svg><span>홈</span></a>
+      <a href="../../../scenarios/" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 3v12M6 15a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM18 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM18 9c0 5-12 2-12 6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>시나리오</span></a>
+      <a href="../../../stocks/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 3v3M7 17v4M17 3v5M17 15v6M4 6h6v11H4zM14 8h6v7h-6z" stroke-linecap="round" stroke-linejoin="round"/></svg><span>종목</span></a>
+      <a href="../../../picks/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 7.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zM12 11.5v1" stroke-linecap="round" stroke-linejoin="round"/></svg><span>추천</span></a>
+      <a href="../../../flows/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 8h14l-3-3M20 16H6l3 3" stroke-linecap="round" stroke-linejoin="round"/></svg><span>수급</span></a>
+      <a href="../../../market/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 12h4l3-8 4 16 3-8h4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>시장</span></a>
+      <a href="../../../more/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h10" stroke-linecap="round" stroke-linejoin="round"/></svg><span>더보기</span></a>
+    </nav>
+    <div class="search" role="search" data-search data-root="../../../">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM20 20l-4-4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <label class="sr" for="q">종목 검색</label>
+      <input id="q" type="search" placeholder="종목 이름이나 코드로 찾기" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="q-list" aria-autocomplete="list">
+      <ul id="q-list" role="listbox" hidden></ul>
+    </div>
+  </header>
+  <div class="pagehead">
+    <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 3v12M6 15a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM18 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM18 9c0 5-12 2-12 6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    <div><h1>시나리오 · 대응</h1><p>앞으로 갈 수 있는 길을 두세 개로 나누고 확률과 &#39;그 길이면 무엇을 할지&#39;를 적었어요. 뉴스 하나가 아니라 신호가 켜질 때만 움직여요. <span class="stamp" title="마지막 리포트 시각 · 리포트는 평일 저녁 18:10 · 아침 06:10(화~토) 예약이에요. GitHub 예약이라 보통 몇 시간 늦게 오고, 주말엔 없어요">· 11-07 06:12 아침 기준<span data-ago="2026-11-07 06:12"></span> · 다음 11-09(월) 18:10 예약</span></p></div>
+  </div>
+  <nav class="subtabs" aria-label="하위 탭">
+<a href="../../../scenarios/">개요</a><a href="../../../scenarios/g1/">JIN 시나리오 <span class="n">58</span></a><a href="../../../scenarios/forecast/" aria-current="page">📈 주가 예측</a><a href="../../../scenarios/topics/">🧩 주제 시나리오 <span class="n">10</span></a><a href="../../../scenarios/auto/">AI 시나리오 <span class="n">9</span></a><a href="../../../scenarios/auto/score/">AI 성적표 <span class="n">47</span></a><a href="../../../scenarios/rotation/">주도권 이양</a>  </nav>
+  <main id="main">
+
+
+
+
+<nav class="subtabs" aria-label="예측 보드">
+<a href="../../../scenarios/forecast/" aria-current="page">S&amp;P500 12/31</a><a href="../../../scenarios/forecast/kr/">코스피 12/30</a><a href="../../../scenarios/forecast/how/">방법</a></nav>
+<section class="card">
+  <h2>11/20 S&amp;P500<sup class="fn"><a href="#fn-1" id="fr-1" title="미국 큰 회사 500곳을 묶은 지수예요.">1</a></sup>, 어디쯤에서 끝날까? <span class="faint">· 실적 시즌 S&amp;P(ERN) · 10거래일 남음</span></h2>
+<div class="label" style="margin-top:4px">중간 점검 보드 — S&amp;P500의 주 보드는 <a href="../../../scenarios/forecast/">12/31 연말 S&amp;P(YEND)</a>이고, 이 보드는 같은 길의 앞 구간(11/20)을 따로 재요.</div>  <div class="banner" style="margin:8px 0 0">정답이 아니라 <b>시나리오<sup class="fn"><a href="#fn-2" id="fr-2" title="앞으로 일어날 수 있는 길을 두세 개로 나눈 거예요. 길마다 확률과 할 일을 적어요.">2</a></sup>를 숫자로 바꾼 참고값</b>이에요. 사고팔기 판정(★)에는 쓰지 않아요.</div>
+  <div class="kpis fc2" style="margin-top:12px">
+    <div><div class="v num">7,434</div><div class="l">가운데 값 · 지금 대비 +0.8%</div></div>
+    <div><div class="v num"><span class="nw">7,033</span><span class="nw">~7,968</span></div><div class="l">10번 중 8번은 이 안(80%)</div></div>
+    <div><div class="v num">57%</div><div class="l">지금(7,377)보다 높을 확률</div></div>
+    <div><div class="v num">+1.1%</div><div class="l">확률 가중 기대 · JIN 확률만 쓰면 +2.2%</div></div>
+  </div>
+<div class="label" style="margin-top:6px">위 숫자 = 시나리오 반 + 통계 기준 반. 시나리오만 <b class="num">7,577</b>(6,888~8,159 · 오를 확률 65%) · 통계 기준(방향 없이 최근 변동 연 13.9%) <b class="num">7,374</b>(7,116~7,641) — 셋 다 기록해 목표일에 채점해요.</div>  <svg class="fcdist" viewBox="0 0 640 190" role="img" aria-label="S&amp;P500 2026-11-20 가격 분포: 가운데 7434, 80% 구간 7033~7968">
+    <rect class="fcband" x="253.0" y="30" width="217.0" height="126"/>
+<polygon class="ar sa" points="16.0,156 16.0,156.0 21.1,156.0 26.1,156.0 31.2,156.0 36.3,156.0 41.3,156.0 46.4,156.0 51.5,156.0 56.5,156.0 61.6,156.0 66.7,156.0 71.7,156.0 76.8,156.0 81.9,156.0 86.9,156.0 92.0,156.0 97.1,156.0 102.1,156.0 107.2,156.0 112.3,156.0 117.3,156.0 122.4,156.0 127.5,156.0 132.5,156.0 137.6,156.0 142.7,156.0 147.7,156.0 152.8,156.0 157.9,156.0 162.9,156.0 168.0,156.0 173.1,156.0 178.1,156.0 183.2,156.0 188.3,156.0 193.3,156.0 198.4,156.0 203.5,156.0 208.5,156.0 213.6,156.0 218.7,156.0 223.7,156.0 228.8,156.0 233.9,156.0 238.9,156.0 244.0,156.0 249.1,156.0 254.1,156.0 259.2,156.0 264.3,156.0 269.3,156.0 274.4,156.0 279.5,156.0 284.5,156.0 289.6,156.0 294.7,156.0 299.7,156.0 304.8,156.0 309.9,156.0 314.9,156.0 320.0,156.0 325.1,156.0 330.1,156.0 335.2,156.0 340.3,156.0 345.3,156.0 350.4,156.0 355.5,156.0 360.5,156.0 365.6,156.0 370.7,156.0 375.7,155.9 380.8,155.9 385.9,155.9 390.9,155.8 396.0,155.7 401.1,155.6 406.1,155.4 411.2,155.2 416.3,154.9 421.3,154.5 426.4,154.0 431.5,153.4 436.5,152.6 441.6,151.7 446.7,150.6 451.7,149.4 456.8,147.9 461.9,146.4 466.9,144.6 472.0,142.8 477.1,141.0 482.1,139.1 487.2,137.3 492.3,135.6 497.3,134.1 502.4,132.8 507.5,131.9 512.5,131.3 517.6,131.0 522.7,131.2 527.7,131.7 532.8,132.6 537.9,133.8 542.9,135.3 548.0,137.0 553.1,138.7 558.1,140.6 563.2,142.5 568.3,144.3 573.3,146.1 578.4,147.7 583.5,149.1 588.5,150.4 593.6,151.5 598.7,152.5 603.7,153.3 608.8,153.9 613.9,154.4 618.9,154.8 624.0,155.2 624.0,156"/><polygon class="ar sb" points="16.0,156 16.0,156.0 21.1,156.0 26.1,156.0 31.2,156.0 36.3,156.0 41.3,156.0 46.4,156.0 51.5,156.0 56.5,156.0 61.6,156.0 66.7,156.0 71.7,156.0 76.8,156.0 81.9,156.0 86.9,156.0 92.0,156.0 97.1,156.0 102.1,156.0 107.2,156.0 112.3,156.0 117.3,156.0 122.4,156.0 127.5,156.0 132.5,156.0 137.6,156.0 142.7,156.0 147.7,156.0 152.8,156.0 157.9,156.0 162.9,156.0 168.0,156.0 173.1,156.0 178.1,156.0 183.2,155.9 188.3,155.9 193.3,155.9 198.4,155.9 203.5,155.8 208.5,155.8 213.6,155.7 218.7,155.6 223.7,155.4 228.8,155.2 233.9,155.0 238.9,154.7 244.0,154.4 249.1,153.9 254.1,153.4 259.2,152.7 264.3,152.0 269.3,151.0 274.4,150.0 279.5,148.7 284.5,147.3 289.6,145.6 294.7,143.8 299.7,141.8 304.8,139.5 309.9,137.0 314.9,134.4 320.0,131.5 325.1,128.6 330.1,125.5 335.2,122.3 340.3,119.2 345.3,116.0 350.4,112.9 355.5,110.0 360.5,107.3 365.6,104.8 370.7,102.6 375.7,100.8 380.8,99.4 385.9,98.5 390.9,98.0 396.0,97.9 401.1,98.4 406.1,99.3 411.2,100.6 416.3,102.3 421.3,104.4 426.4,106.9 431.5,109.6 436.5,112.5 441.6,115.5 446.7,118.6 451.7,121.8 456.8,125.0 461.9,128.1 466.9,131.1 472.0,133.9 477.1,136.6 482.1,139.1 487.2,141.4 492.3,143.5 497.3,145.4 502.4,147.0 507.5,148.5 512.5,149.8 517.6,150.9 522.7,151.8 527.7,152.6 532.8,153.3 537.9,153.8 542.9,154.3 548.0,154.7 553.1,155.0 558.1,155.2 563.2,155.4 568.3,155.5 573.3,155.6 578.4,155.7 583.5,155.8 588.5,155.9 593.6,155.9 598.7,155.9 603.7,155.9 608.8,156.0 613.9,156.0 618.9,156.0 624.0,156.0 624.0,156"/><polygon class="ar sc" points="16.0,156 16.0,156.0 21.1,156.0 26.1,156.0 31.2,156.0 36.3,156.0 41.3,156.0 46.4,156.0 51.5,156.0 56.5,156.0 61.6,156.0 66.7,156.0 71.7,156.0 76.8,156.0 81.9,156.0 86.9,156.0 92.0,156.0 97.1,156.0 102.1,156.0 107.2,156.0 112.3,156.0 117.3,155.9 122.4,155.9 127.5,155.9 132.5,155.8 137.6,155.7 142.7,155.6 147.7,155.4 152.8,155.2 157.9,154.9 162.9,154.6 168.0,154.1 173.1,153.5 178.1,152.8 183.2,151.9 188.3,150.9 193.3,149.6 198.4,148.2 203.5,146.6 208.5,144.9 213.6,143.0 218.7,141.0 223.7,138.9 228.8,136.8 233.9,134.8 238.9,132.9 244.0,131.2 249.1,129.7 254.1,128.5 259.2,127.6 264.3,127.2 269.3,127.1 274.4,127.5 279.5,128.3 284.5,129.4 289.6,130.8 294.7,132.5 299.7,134.4 304.8,136.4 309.9,138.5 314.9,140.5 320.0,142.5 325.1,144.5 330.1,146.3 335.2,147.9 340.3,149.3 345.3,150.6 350.4,151.7 355.5,152.6 360.5,153.4 365.6,154.0 370.7,154.5 375.7,154.9 380.8,155.2 385.9,155.4 390.9,155.6 396.0,155.7 401.1,155.8 406.1,155.9 411.2,155.9 416.3,155.9 421.3,156.0 426.4,156.0 431.5,156.0 436.5,156.0 441.6,156.0 446.7,156.0 451.7,156.0 456.8,156.0 461.9,156.0 466.9,156.0 472.0,156.0 477.1,156.0 482.1,156.0 487.2,156.0 492.3,156.0 497.3,156.0 502.4,156.0 507.5,156.0 512.5,156.0 517.6,156.0 522.7,156.0 527.7,156.0 532.8,156.0 537.9,156.0 542.9,156.0 548.0,156.0 553.1,156.0 558.1,156.0 563.2,156.0 568.3,156.0 573.3,156.0 578.4,156.0 583.5,156.0 588.5,156.0 593.6,156.0 598.7,156.0 603.7,156.0 608.8,156.0 613.9,156.0 618.9,156.0 624.0,156.0 624.0,156"/><polygon class="ar sd" points="16.0,156 16.0,155.7 21.1,155.6 26.1,155.5 31.2,155.3 36.3,155.2 41.3,155.0 46.4,154.7 51.5,154.5 56.5,154.2 61.6,153.8 66.7,153.4 71.7,153.0 76.8,152.5 81.9,152.0 86.9,151.5 92.0,150.9 97.1,150.4 102.1,149.8 107.2,149.2 112.3,148.7 117.3,148.2 122.4,147.8 127.5,147.4 132.5,147.1 137.6,146.9 142.7,146.7 147.7,146.7 152.8,146.7 157.9,146.9 162.9,147.1 168.0,147.4 173.1,147.8 178.1,148.2 183.2,148.7 188.3,149.2 193.3,149.8 198.4,150.3 203.5,150.9 208.5,151.4 213.6,152.0 218.7,152.5 223.7,153.0 228.8,153.4 233.9,153.8 238.9,154.1 244.0,154.5 249.1,154.7 254.1,155.0 259.2,155.2 264.3,155.3 269.3,155.5 274.4,155.6 279.5,155.7 284.5,155.8 289.6,155.8 294.7,155.9 299.7,155.9 304.8,155.9 309.9,155.9 314.9,156.0 320.0,156.0 325.1,156.0 330.1,156.0 335.2,156.0 340.3,156.0 345.3,156.0 350.4,156.0 355.5,156.0 360.5,156.0 365.6,156.0 370.7,156.0 375.7,156.0 380.8,156.0 385.9,156.0 390.9,156.0 396.0,156.0 401.1,156.0 406.1,156.0 411.2,156.0 416.3,156.0 421.3,156.0 426.4,156.0 431.5,156.0 436.5,156.0 441.6,156.0 446.7,156.0 451.7,156.0 456.8,156.0 461.9,156.0 466.9,156.0 472.0,156.0 477.1,156.0 482.1,156.0 487.2,156.0 492.3,156.0 497.3,156.0 502.4,156.0 507.5,156.0 512.5,156.0 517.6,156.0 522.7,156.0 527.7,156.0 532.8,156.0 537.9,156.0 542.9,156.0 548.0,156.0 553.1,156.0 558.1,156.0 563.2,156.0 568.3,156.0 573.3,156.0 578.4,156.0 583.5,156.0 588.5,156.0 593.6,156.0 598.7,156.0 603.7,156.0 608.8,156.0 613.9,156.0 618.9,156.0 624.0,156.0 624.0,156"/>    <polyline class="tot" points="16.0,155.7 21.1,155.6 26.1,155.5 31.2,155.3 36.3,155.2 41.3,155.0 46.4,154.7 51.5,154.5 56.5,154.2 61.6,153.8 66.7,153.4 71.7,153.0 76.8,152.5 81.9,152.0 86.9,151.5 92.0,150.9 97.1,150.3 102.1,149.8 107.2,149.2 112.3,148.7 117.3,148.2 122.4,147.7 127.5,147.3 132.5,146.9 137.6,146.6 142.7,146.3 147.7,146.1 152.8,145.9 157.9,145.8 162.9,145.6 168.0,145.5 173.1,145.3 178.1,145.0 183.2,144.6 188.3,144.0 193.3,143.3 198.4,142.4 203.5,141.4 208.5,140.1 213.6,138.6 218.7,137.0 223.7,135.3 228.8,133.5 233.9,131.6 238.9,129.7 244.0,128.0 249.1,126.3 254.1,124.8 259.2,123.5 264.3,122.5 269.3,121.7 274.4,121.1 279.5,120.6 284.5,120.4 289.6,120.3 294.7,120.1 299.7,120.0 304.8,119.8 309.9,119.4 314.9,118.9 320.0,118.1 325.1,117.0 330.1,115.7 335.2,114.2 340.3,112.5 345.3,110.6 350.4,108.6 355.5,106.6 360.5,104.6 365.6,102.8 370.7,101.1 375.7,99.7 380.8,98.5 385.9,97.7 390.9,97.3 396.0,97.3 401.1,97.7 406.1,98.5 411.2,99.7 416.3,101.2 421.3,102.9 426.4,104.8 431.5,106.9 436.5,109.1 441.6,111.2 446.7,113.3 451.7,115.2 456.8,116.9 461.9,118.4 466.9,119.7 472.0,120.8 477.1,121.6 482.1,122.2 487.2,122.7 492.3,123.1 497.3,123.4 502.4,123.8 507.5,124.4 512.5,125.0 517.6,125.9 522.7,127.0 527.7,128.4 532.8,129.9 537.9,131.7 542.9,133.6 548.0,135.6 553.1,137.7 558.1,139.8 563.2,141.9 568.3,143.9 573.3,145.7 578.4,147.4 583.5,148.9 588.5,150.3 593.6,151.4 598.7,152.4 603.7,153.2 608.8,153.9 613.9,154.4 618.9,154.8 624.0,155.1"/>
+<polyline class="tot bl" points="16.0,156.0 21.1,156.0 26.1,156.0 31.2,156.0 36.3,156.0 41.3,156.0 46.4,156.0 51.5,156.0 56.5,156.0 61.6,156.0 66.7,156.0 71.7,156.0 76.8,156.0 81.9,156.0 86.9,156.0 92.0,156.0 97.1,156.0 102.1,156.0 107.2,156.0 112.3,156.0 117.3,156.0 122.4,156.0 127.5,156.0 132.5,156.0 137.6,156.0 142.7,156.0 147.7,156.0 152.8,156.0 157.9,155.9 162.9,155.9 168.0,155.8 173.1,155.7 178.1,155.6 183.2,155.4 188.3,155.1 193.3,154.7 198.4,154.1 203.5,153.4 208.5,152.5 213.6,151.2 218.7,149.7 223.7,147.7 228.8,145.2 233.9,142.2 238.9,138.6 244.0,134.4 249.1,129.5 254.1,123.9 259.2,117.6 264.3,110.7 269.3,103.3 274.4,95.3 279.5,87.1 284.5,78.7 289.6,70.4 294.7,62.3 299.7,54.7 304.8,47.8 309.9,41.8 314.9,36.9 320.0,33.2 325.1,30.9 330.1,30.0 335.2,30.5 340.3,32.4 345.3,35.7 350.4,40.2 355.5,45.7 360.5,52.1 365.6,59.1 370.7,66.7 375.7,74.5 380.8,82.5 385.9,90.3 390.9,97.9 396.0,105.2 401.1,112.0 406.1,118.3 411.2,124.0 416.3,129.1 421.3,133.6 426.4,137.5 431.5,140.9 436.5,143.8 441.6,146.2 446.7,148.3 451.7,149.9 456.8,151.3 461.9,152.3 466.9,153.2 472.0,153.9 477.1,154.4 482.1,154.8 487.2,155.1 492.3,155.4 497.3,155.5 502.4,155.7 507.5,155.8 512.5,155.8 517.6,155.9 522.7,155.9 527.7,155.9 532.8,156.0 537.9,156.0 542.9,156.0 548.0,156.0 553.1,156.0 558.1,156.0 563.2,156.0 568.3,156.0 573.3,156.0 578.4,156.0 583.5,156.0 588.5,156.0 593.6,156.0 598.7,156.0 603.7,156.0 608.8,156.0 613.9,156.0 618.9,156.0 624.0,156.0"/>    <line class="ax" x1="16" x2="624" y1="156" y2="156"/>
+<text class="tk" x="129.3" y="176" text-anchor="middle">6,500</text><text class="tk" x="245.3" y="176" text-anchor="middle">7,000</text><text class="tk" x="361.4" y="176" text-anchor="middle">7,500</text><text class="tk" x="477.4" y="176" text-anchor="middle">8,000</text><text class="tk" x="593.5" y="176" text-anchor="middle">8,500</text>    <line class="md" x1="346.1" x2="346.1" y1="30" y2="156"/>
+<line class="now" x1="332.8" x2="332.8" y1="16" y2="156"/><text class="nt" x="332.8" y="14" text-anchor="middle">지금 7,377</text><text class="al sa" x="518.1" y="125.0" text-anchor="middle">A 17%</text><text class="al sb" x="393.9" y="130.9" text-anchor="middle">B 55%</text><text class="al sc" x="267.4" y="121.1" text-anchor="middle">C 21%</text><text class="al sd" x="147.8" y="140.7" text-anchor="middle">D 8%</text>  </svg>
+  <div class="label">색 = 갈래(위쪽 갈래일수록 빨강, 아래쪽일수록 파랑) · 굵은 선 = 갈래를 모두 섞은 분포 · 가는 점선 곡선 = 통계 기준 · 옅은 띠 = 80% 구간 · 점선 = 가운데 값(띠 · 가운데 값은 시나리오 반 + 통계 기준 반)</div>
+</section>
+<section class="card">
+  <h2>갈래별 확률 — JIN 확률 → 계기로 보정</h2>
+  <ul class="plain fcbr"><li>
+    <div class="fcn"><span class="sw sa"></span><b>ERN-A</b> 실적이 이긴다 — 신고가<sup class="fn"><a href="#fn-3" id="fr-3" title="지난 1년 중 가장 높은 가격을 새로 쓴 거예요.">3</a></sup> 안착</div>
+    <div class="fcv"><span class="nw">S&amp;P500 <b class="num">7,950~8,400</b> <span class="faint">(+10.8%)</span></span>
+      <span class="nw">JIN <b class="num">24%</b> → 계기 보정 <b class="num">17%</b> <span class="down">▼</span> <span class="faint">· 통계 기준 1%</span></span>
+</div>
+  </li><li>
+    <div class="fcn"><span class="sw sb"></span><b>ERN-B</b> 좋은 실적, 제자리 지수<sup class="fn"><a href="#fn-4" id="fr-4" title="여러 회사 주가를 한데 묶어 매긴 점수예요.">4</a></sup></div>
+    <div class="fcv"><span class="nw">S&amp;P500 <b class="num">7,330~7,950</b> <span class="faint">(+3.6%)</span></span>
+      <span class="nw">JIN <b class="num">41%</b> → 계기 보정 <b class="num">55%</b> <span class="up">▲</span> <span class="faint">· 통계 기준 53%</span></span>
+</div>
+  </li><li>
+    <div class="fcn"><span class="sw sc"></span><b>ERN-C</b> 금리<sup class="fn"><a href="#fn-5" id="fr-5" title="돈을 빌리는 값(이자율)이에요. 오르면 주식이 비싸 보여 눌리기 쉬워요.">5</a></sup> · 신용 조정</div>
+    <div class="fcv"><span class="nw">S&amp;P500 <b class="num">6,860~7,330</b> <span class="faint">(−3.8%)</span></span>
+      <span class="nw">JIN <b class="num">28%</b> → 계기 보정 <b class="num">21%</b> <span class="down">▼</span> <span class="faint">· 통계 기준 44%</span></span>
+</div>
+  </li><li>
+    <div class="fcn"><span class="sw sd"></span><b>ERN-D</b> 신용 사건 · 확전</div>
+    <div class="fcv"><span class="nw">S&amp;P500 <b class="num">6,300~6,860</b> <span class="faint">(−10.8%)</span></span>
+      <span class="nw">JIN <b class="num">7%</b> → 계기 보정 <b class="num">8%</b> <span class="faint">· 통계 기준 2%</span></span>
+<span class="label">확인 조건 1개 켜짐 </span></div>
+  </li></ul>
+  <div class="label" style="margin-top:6px">JIN 확률은 바꾸지 않았어요 — 오른쪽 칸은 사이트가 계기로 다시 잰 값이고, 둘을 나란히 보여요. 통계 기준 = 방향 없이 최근 변동대로만 움직일 때 목표일 값이 그 갈래 범위 쪽일 몫이에요(평소 변동만 — 급락 같은 꼬리는 못 봐요). JIN 확률이 이보다 크게 높으면 '변동에 비해 낙관 · 비관'이라는 신호예요.</div>
+</section>
+<section class="card">
+  <h2>지금 계기는 어느 갈래 쪽? <span class="faint">· 계기 3개 반영</span></h2>
+  <div class="tablewrap"><table>
+    <thead><tr><th>계기</th><th class="r">지금</th><th>들어맞는 갈래</th></tr></thead>
+    <tbody><tr><td>하이일드<sup class="fn"><a href="#fn-6" id="fr-6" title="신용이 낮은 회사가 비싼 이자로 빌린 채권이에요. 이자 차이가 벌어지면 돈줄이 마르는 신호예요.">6</a></sup> 스프레드</td><td class="r num nw">348bp <span class="faint">✅</span></td>
+      <td><b>B</b> <span class="faint">300bp~350bp</span></td></tr><tr><td>미국 10년물<sup class="fn"><a href="#fn-7" id="fr-7" title="미국 정부가 10년 뒤 갚는 국채예요. 그 금리가 세계 돈값의 기준이에요.">7</a></sup> 금리</td><td class="r num nw">4.90% <span class="faint">✅</span></td>
+      <td><b>A</b> <span class="faint">~5.00%</span></td></tr><tr><td>브렌트<sup class="fn"><a href="#fn-8" id="fr-8" title="국제 원유 가격이에요. 오르면 물가가 오르고 금리를 밀어 올려요.">8</a></sup> 유가</td><td class="r num nw">$107.0 <span class="faint">✅</span></td>
+      <td><b>B</b> <span class="faint">$95.0~$115.0</span></td></tr><tr><td>VIX<sup class="fn"><a href="#fn-9" id="fr-9" title="미국 주식시장의 불안 지수예요. 20을 넘으면 겁먹은 시장이에요.">9</a></sup>(불안 지수)</td><td class="r num nw">28.2 <span class="faint">✅</span></td>
+      <td><span class="faint">구간이 한 갈래뿐 — 안 씀</span></td></tr></tbody>
+  </table></div>
+</section>
+<section class="card">
+  <h2>이 보드로 본 종목 <span class="faint">· 11/20까지 기대 · 섹터가 걸린 181종목</span></h2>
+  <div class="grid2 fcgrid">
+    <div><h3>시나리오가 밀어 주는 쪽</h3><ul class="plain fcl"><li><a href="../../../s/MRNA/">모더나</a> <b class="num">+3.3%</b> <span class="faint">β 1.85 · 헬스케어</span></li><li><a href="../../../s/ILMN/">일루미나</a> <b class="num">+2.7%</b> <span class="faint">β 1.04 · 헬스케어</span></li><li><a href="../../../s/ISRG/">인튜이티브서지컬</a> <b class="num">+2.7%</b> <span class="faint">β 0.96 · 헬스케어</span></li><li><a href="../../../us/s/IDXX/">Idexx Laboratories</a> <b class="num">+2.6%</b> <span class="faint">β 0.86 · 헬스케어</span></li><li><a href="../../../us/s/DHR/">Danaher Corporation</a> <b class="num">+2.5%</b> <span class="faint">β 0.69 · 헬스케어</span></li><li><a href="../../../us/s/DXCM/">Dexcom</a> <b class="num">+2.5%</b> <span class="faint">β 0.81 · 헬스케어</span></li></ul></div>
+<div><h3>시나리오가 누르는 쪽</h3><ul class="plain fcl"><li><a href="../../../us/s/WMT/">Walmart</a> <b class="num">−1.9%</b> <span class="faint">β 0.3 · 경기소비재</span></li><li><a href="../../../us/s/PM/">Philip Morris International</a> <b class="num">−1.9%</b> <span class="faint">β 0.31 · 경기소비재</span></li><li><a href="../../../us/s/PG/">Procter &amp; Gamble</a> <b class="num">−1.9%</b> <span class="faint">β 0.3 · 경기소비재</span></li><li><a href="../../../us/s/PEP/">PepsiCo</a> <b class="num">−1.9%</b> <span class="faint">β 0.3 · 경기소비재</span></li></ul></div>  </div>
+  <div class="label" style="margin-top:6px">한 종목은 지수보다 훨씬 넓게 움직여요 — 종목 쪽에 '개별 흔들림(80%)'을 같이 적었어요.</div>
+</section>
+
+  </main><aside class="fnbox" aria-label="단어 풀이"><h2>단어 풀이 <span class="faint">· 이 쪽에 나온 어려운 말</span></h2><dl class="fnlist"><dt id="fn-1"><a href="#fr-1">1</a> S&amp;P500</dt><dd>미국 큰 회사 500곳을 묶은 지수예요.</dd><dt id="fn-2"><a href="#fr-2">2</a> 시나리오</dt><dd>앞으로 일어날 수 있는 길을 두세 개로 나눈 거예요. 길마다 확률과 할 일을 적어요.</dd><dt id="fn-3"><a href="#fr-3">3</a> 신고가</dt><dd>지난 1년 중 가장 높은 가격을 새로 쓴 거예요.</dd><dt id="fn-4"><a href="#fr-4">4</a> 지수</dt><dd>여러 회사 주가를 한데 묶어 매긴 점수예요.</dd><dt id="fn-5"><a href="#fr-5">5</a> 금리</dt><dd>돈을 빌리는 값(이자율)이에요. 오르면 주식이 비싸 보여 눌리기 쉬워요.</dd><dt id="fn-6"><a href="#fr-6">6</a> 하이일드</dt><dd>신용이 낮은 회사가 비싼 이자로 빌린 채권이에요. 이자 차이가 벌어지면 돈줄이 마르는 신호예요.</dd><dt id="fn-7"><a href="#fr-7">7</a> 10년물</dt><dd>미국 정부가 10년 뒤 갚는 국채예요. 그 금리가 세계 돈값의 기준이에요.</dd><dt id="fn-8"><a href="#fr-8">8</a> 유가</dt><dd>국제 원유 가격이에요. 오르면 물가가 오르고 금리를 밀어 올려요.</dd><dt id="fn-9"><a href="#fr-9">9</a> VIX</dt><dd>미국 주식시장의 불안 지수예요. 20을 넘으면 겁먹은 시장이에요.</dd></dl></aside>
+  <footer>
+    <p class="disclaim" role="note"><b>⚠ 투자 책임 안내</b> — 이 사이트는 개인 투자 규칙을 점검하는 곳이에요. <b>투자 자문이나 매수·매도 추천이 아니에요.</b> 모든 판단과 책임은 본인에게 있어요. 여기 나온 목록·점수·과거 성적은 앞으로의 수익을 보장하지 않고, 원금을 잃을 수 있어요.</p>
+    <p>매수 판단은 정해진 규칙으로만 내려요. <span class="badge opinion">의견</span> 표시가 붙은 건 참고용이에요. 가격은 모두 일봉 종가 기준이에요.</p>
+    <p>리포트 11-07 06:12 아침 기준(다음 11-09(월) 18:10 예약 — 평일 저녁 · 아침만, 보통 몇 시간 늦게 와요) · 사이트 시세 · 뉴스 업데이트 11-07 06:21 KST<span data-ago="202611070621"></span> · 시세 출처 yfinance·FinanceDataReader · 검색엔진에 노출하지 않아요</p>
+    <div class="set">
+      <button type="button" data-set="theme">밝게/어둡게</button>
+      <button type="button" data-set="updown">상승색: 한국식/미국식</button>
+      <button type="button" data-help>⌨ 편의기능 · 단축키</button>
+      <button type="button" data-sharepage>🔗 이 쪽 공유</button>
+      <button type="button" data-install hidden>📲 홈 화면에 설치</button>
+    </div>
+  </footer>
+</div>
+<div class="toast" data-toast role="status" aria-live="polite" hidden></div>
+<script src="../../../static/ui.js?v=202611070621" defer></script>
+<script src="../../../static/hol.js?v=202611070621" defer></script>
+<script src="../../../static/mkt.js?v=202611070621" defer></script>
+<script src="../../../static/conv.js?v=202611070621" defer></script>
+</body>
+</html>
